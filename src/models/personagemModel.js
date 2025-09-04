@@ -27,25 +27,28 @@ class PersonagemModel {
 
   // Criar um novo personagem
   async create(
-    title,
-    description,
-    episodes,
-    releaseYear,
-    studio,
-    genres,
-    rating,
-    imageUrl
+    imageUrl,
+    name,
+    ki,
+    planetaId,
+    racaId,
+    tecnicasEspeciais,
+    transformacoes,
+    sagas,
+    biografia
+
   ) {
     const newPersonagem = await prisma.personagem.create({
       data: {
-        title,
-        description,
-        episodes,
-        releaseYear,
-        studio,
-        genres,
-        rating,
         imageUrl,
+    name,
+    ki,
+    tecnicasEspeciais,
+    transformacoes,
+    sagas,
+    biografia,
+    planetaId: Number(planetaId),
+    racaId: Number(racaId)
       },
     });
 
@@ -55,14 +58,16 @@ class PersonagemModel {
   // Atualizar um personagem
   async update(
     id,
-    title,
-    description,
-    episodes,
-    releaseYear,
-    studio,
-    genres,
-    rating,
-    imageUrl
+    imageUrl,
+    name,
+    ki,
+    planetaId,
+    racaId,
+    tecnicasEspeciais,
+    transformacoes,
+    sagas,
+    biografia
+    
   ) {
     const personagem = await this.findById(id);
 
@@ -72,26 +77,29 @@ class PersonagemModel {
 
     // Atualize o personagem existente com os novos dados
     const data = {};
-    if (title !== undefined) {
-      data.title = title;
+    if (name !== undefined) {
+      data.name = name;
     }
-    if (description !== undefined) {
-      data.description = description;
+    if (biografia !== undefined) {
+      data.biografia = biografia;
     }
-    if (episodes !== undefined) {
-      data.episodes = episodes;
+    if (ki !== undefined) {
+      data.ki = ki;
     }
-    if (releaseYear !== undefined) {
-      data.releaseYear = releaseYear;
+    if (planetaId !== undefined) {
+      data.planetaId = Number(planetaId);
     }
-    if (studio !== undefined) {
-      data.studio = studio;
+    if (racaId !== undefined) {
+      data.racaId = Number(racaId);
     }
-    if (genres !== undefined) {
-      data.genres = genres;
+    if (tecnicasEspeciais!== undefined) {
+      data.tecnicasEspeciais = tecnicasEspeciais;
     }
-    if (rating !== undefined) {
-      data.rating = rating;
+    if (transformacoes !== undefined) {
+      data.transformacoes = transformacoes;
+    }
+    if (sagas !== undefined) {
+      data.sagas = sagas;
     }
     if (imageUrl !== undefined) {
       data.imageUrl = imageUrl;

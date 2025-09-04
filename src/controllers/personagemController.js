@@ -35,26 +35,32 @@ class PersonagemController {
     try {
       // Validação básica
       const {
-        title,
-        description,
-        episodes,
-        releaseYear,
-        studio,
-        genres,
-        rating,
+        nome,
+        descricao,
+        racaId,
+        nivelPoder,
+        transformacoes,
+        tecnicasEspeciais,
+        planetaId,
+        afiliacao,
         imageUrl,
+        status,
+        idade,
       } = req.body;
 
       // Verifica se todos os campos do personagem foram fornecidos
       if (
-        !title ||
-        !description ||
-        !episodes ||
-        !releaseYear ||
-        !studio ||
-        !genres ||
-        !rating ||
-        !imageUrl
+        !nome ||
+        !descricao ||
+        !racaId ||
+        !nivelPoder ||
+        !transformacoes ||
+        !tecnicasEspeciais ||
+        !planetaId ||
+        !afiliacao ||
+        !imageUrl ||
+        !status ||
+        !idade
       ) {
         return res
           .status(400)
@@ -63,14 +69,17 @@ class PersonagemController {
 
       // Criar o novo personagem
       const newPersonagem = await PersonagemModel.create(
-        title,
-        description,
-        episodes,
-        releaseYear,
-        studio,
-        genres,
-        rating,
-        imageUrl
+        nome,
+        descricao,
+        racaId,
+        nivelPoder,
+        transformacoes,
+        tecnicasEspeciais,
+        planetaId,
+        afiliacao,
+        imageUrl,
+        status,
+        idade
       );
 
       if (!newPersonagem) {
@@ -89,27 +98,33 @@ class PersonagemController {
     try {
       const { id } = req.params;
       const {
-        title,
-        description,
-        episodes,
-        releaseYear,
-        studio,
-        genres,
-        rating,
+        nome,
+        descricao,
+        racaId,
+        nivelPoder,
+        transformacoes,
+        tecnicasEspeciais,
+        planetaId,
+        afiliacao,
         imageUrl,
+        status,
+        idade,
       } = req.body;
 
       // Atualizar o personagem
       const updatedPersonagem = await PersonagemModel.update(
         id,
-        title,
-        description,
-        episodes,
-        releaseYear,
-        studio,
-        genres,
-        rating,
-        imageUrl
+        nome,
+        descricao,
+        racaId,
+        nivelPoder,
+        transformacoes,
+        tecnicasEspeciais,
+        planetaId,
+        afiliacao,
+        imageUrl,
+        status,
+        idade
       );
 
       if (!updatedPersonagem) {

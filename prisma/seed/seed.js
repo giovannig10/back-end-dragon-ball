@@ -5,13 +5,12 @@ async function main() {
   console.log("Iniciando o seed...");
 
   // Código opcional para limpar o banco de dados antes de inserir novos dados
-  await prisma.card.deleteMany({});
-  await prisma.collection.deleteMany({});
+  await prisma.planeta.deleteMany({});
 
-  // Criar coleções de diferentes temáticas
-  const nbaLegends = await prisma.collection.create({
+  // Criar planetas de diferentes temáticas
+  const planetas = await prisma.planeta.create({
     data: {
-      name: "NBA Legends",
+      name: "",
       description: "Jogadores lendários da história do basquete da NBA",
       releaseYear: 2023,
     },
