@@ -25,6 +25,7 @@ class PlanetaModel {
 
   // Criar um novo planeta
   async create(
+    planetaId,
     nome,
     descricao,
     imageUrl,
@@ -32,10 +33,11 @@ class PlanetaModel {
   ) {
     const newPlaneta = await prisma.planeta.create({
       data: {
-         nome,
-    descricao,
-    imageUrl,
-    nivelPoder
+        planetaId,
+        nome,
+        descricao,
+        imageUrl,
+        nivelPoder
       },
     });
 
@@ -44,7 +46,7 @@ class PlanetaModel {
 
   // Atualizar um planeta
   async update(
-    id,
+    planetaId,
      nome,
     descricao,
     imageUrl,
@@ -73,7 +75,7 @@ class PlanetaModel {
 
     const planetaUpdated = await prisma.planeta.update({
       where: {
-        id: Number(id),
+        planetaId: Number(id),
       },
       data,
     });
@@ -82,8 +84,8 @@ class PlanetaModel {
   }
 
   // Remover um planeta
-  async delete(id) {
-    const planeta = await this.findById(id);
+  async delete(planetaId) {
+    const planeta = await this.findById(planetaId);
 
     if (!planeta) {
       return null;

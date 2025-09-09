@@ -27,6 +27,7 @@ class RacaModel {
   async create(
     nome,
     descricao,
+    imageUrl,
     caracteristicas,
     habilidadesEspeciais,
     nivelPoderMedio,
@@ -37,6 +38,7 @@ class RacaModel {
       data: {
          nome,
     descricao,
+    imageUrl,
     caracteristicas,
     habilidadesEspeciais,
     nivelPoderMedio,
@@ -52,6 +54,7 @@ class RacaModel {
     id,
      nome,
     descricao,
+    imageUrl,
     caracteristicas,
     habilidadesEspeciais,
     nivelPoderMedio,
