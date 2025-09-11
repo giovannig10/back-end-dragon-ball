@@ -571,9 +571,272 @@ async function main() {
       transformacoes: "Não",
       sagas: "Saga Sayajins, Saga Freeza, Saga de Cell, Saga Majin Boo",
       biografia: "Kaioh do Norte, também conhecido como Rei Kai, é um dos quatro Kaioshins do universo em Dragon Ball. Ele é responsável por treinar Goku e outros guerreiros Z, ajudando-os a melhorar suas habilidades de combate. Kaioh do Norte é conhecido por seu senso de humor peculiar e por sua habilidade de ensinar técnicas poderosas, como o Kaio-ken e a Genki Dama."
-    }
+    },
+    data: {
+      name: "Dende",
+      imageUrl: "https://static.wikia.nocookie.net/dragonball/images/b/bb/Oie_0RmmLLrcEzgS.png/revision/latest/scale-to-width-down/535?cb=20250226150813&path-prefix=pt-br",
+      ki: "Desconhecido",
+      planetaId: 2,
+      racaId: 5,
+      tecnicasEspeciais: "Regeneração, Criação de Esferas do Dragão",
+      transformacoes: "Não",
+      sagas: "Saga Freeza, Saga de Cell, Saga Majin Boo, Dragon Ball Super",
+      biografia: "Dende é um Namekuseijin que desempenha um papel crucial na série Dragon Ball. Ele é responsável por criar as Esferas do Dragão de Namekusei, que são usadas para invocar o dragão Shenlong e conceder desejos. Dende também possui habilidades de cura e regeneração, ajudando os guerreiros Z em várias ocasiões. Ele eventualmente se torna o novo Deus da Terra, substituindo Kami."
+    },
+    data: {
+      name: "Kuririn",
+      imageUrl: "https://i.pinimg.com/736x/a8/68/80/a86880e13c4c1152107aa75dbba2d6cf.jpg",
+      ki: "200 mil",
+      planetaId: 1,
+      racaId: 2,
+      tecnicasEspeciais: "Kamehameha, Kienzan",
+      transformacoes: "Não",
+      sagas: "Todas as sagas",
+      biografia: "Kuririn é um dos melhores amigos de Goku e um dos guerreiros Z na série Dragon Ball. Ele é conhecido por sua coragem, lealdade e habilidades de combate impressionantes, apesar de não ser tão poderoso quanto alguns dos outros guerreiros Z. Kuririn é um personagem cômico e muitas vezes serve como alívio cômico na série, mas também demonstra grande determinação e bravura em batalha."
+    },
+    data: {
+      name: "Majin Boo",
+      imageUrl: "https://i.pinimg.com/736x/2a/eb/17/2aeb17816e82e172d2ad2816a89da3ec.jpg",
+      ki: "3 bilhões",
+      planetaId: 1,
+      racaId: 4,
+      tecnicasEspeciais: "Regeneração, Transformações, Kamehameha",
+      transformacoes: "Sim (Várias formas)",
+      sagas: "Saga Majin Boo",
+      biografia: "Majin Boo é um dos principais antagonistas da série Dragon Ball Z. Ele é uma criatura mágica criada pelo mago Bibidi, conhecida por sua capacidade de regeneração e transformação. Majin Boo passa por várias formas ao longo da saga, cada uma com diferentes níveis de poder e personalidade. Apesar de sua natureza destrutiva, Majin Boo eventualmente se torna um aliado dos guerreiros Z após ser purificado por Goku e seus amigos."
+    },
+    data: {
+      name: "Super Boo",
+      imageUrl: "https://i.pinimg.com/736x/03/2d/e7/032de72d2a69b0c82e01fa6848bfbbd5.jpg",
+      ki: "3 bilhões",
+      planetaId: 1,
+      racaId: 4,
+      tecnicasEspeciais: "Regeneração, Transformações, Kamehameha",
+      transformacoes: "Sim (Várias formas)",
+      sagas: "Saga Majin Boo",
+      biografia: "Super Boo é uma das formas de Majin Boo na série Dragon Ball Z. Ele é a forma resultante da fusão de Majin Boo com o Sr. Satan, o que o torna mais inteligente e menos destrutivo. Super Boo mantém a capacidade de regeneração e transformação de Majin Boo, mas também demonstra um senso de humor e personalidade mais desenvolvidos. Apesar de sua natureza caótica, Super Boo eventualmente se torna um aliado dos guerreiros Z após ser purificado por Goku e seus amigos."
+    },
+    data: {
+      name: "Kid Boo",
+      imageUrl: "https://i.pinimg.com/1200x/5b/84/97/5b84970834caad99ae98d911a3bbb332.jpg",
+      ki: "4 bilhões",
+      planetaId: 1,
+      racaId: 4,
+      tecnicasEspeciais: "Regeneração, Transformações, Kamehameha",
+      transformacoes: "Não",
+      sagas: "Saga Majin Boo",
+      biografia: "Kid Boo é a forma original e mais pura de Majin Boo na série Dragon Ball Z. Ele é uma criatura malévola e caótica, conhecida por sua natureza destrutiva e imprevisível. Kid Boo possui habilidades de regeneração e transformação, tornando-o um adversário formidável para os guerreiros Z. Ele é o antagonista final da Saga Majin Boo, representando uma ameaça significativa que Goku e seus amigos devem enfrentar para salvar o universo."
+    },
+    data: {
+      name: "Meste Kame",
+      imageUrl: "https://i.pinimg.com/736x/f8/fb/28/f8fb28df7e44060eb2d1cf798f38796f.jpg",
+      ki: "Desconhecido",
+      planetaId: 1,
+      racaId: 2,
+      tecnicasEspeciais: "Kamehameha, Mafuba",
+      transformacoes: "Não",
+      sagas: "Todas as sagas",
+      biografia: "Mestre Kame, também conhecido como Mestre Roshi, é um dos personagens mais icônicos da série Dragon Ball. Ele é um mestre de artes marciais e o criador da técnica Kamehameha. Mestre Kame é conhecido por sua personalidade excêntrica e senso de humor, muitas vezes agindo de maneira pervertida. Apesar de sua aparência idosa e comportamento cômico, ele é um lutador habilidoso e sábio, desempenhando um papel crucial no treinamento de Goku e outros guerreiros Z."
+    },
+    data: {
+      name: "Metal Cooler",
+      imageUrl: "https://i.pinimg.com/1200x/39/c3/02/39c302b57f62542134bcc0acdab38e69.jpg",
+      ki: "2 milhões",
+      planetaId: 5,
+      racaId: 8,
+      tecnicasEspeciais: "Transformações, Força Sobre-humana",
+      transformacoes: "Sim (Forma Metálica)",
+      sagas: "Dragon Ball Z: O Retorno de Cooler",
+      biografia: "Metal Cooler é uma versão aprimorada de Cooler, o irmão mais novo de Freeza, na série Dragon Ball Z. Ele é um guerreiro ciborgue criado a partir do corpo de Cooler após sua derrota pelos guerreiros Z. Metal Cooler possui força e resistência aumentadas, bem como a capacidade de se regenerar rapidamente. Ele busca vingança contra os guerreiros Z por causa da derrota de seu irmão e representa uma ameaça significativa durante o filme Dragon Ball Z: O Retorno de Cooler."
+    },
+    data: {
+      name: "Nappa",
+      imageUrl: "https://i.pinimg.com/736x/0a/00/2e/0a002e97f7f58530021491c790025a3a.jpg",
+      ki: "10 mil",
+      planetaId: 3,
+      racaId: 7,
+      tecnicasEspeciais: "Força Sobre-humana, Habilidades de Combate Avançadas",
+      transformacoes: "Não",
+      sagas: "Saga Sayajins",
+      biografia: "Nappa é um guerreiro Saiyajin que aparece como antagonista na Saga dos Sayajins em Dragon Ball Z. Ele é um aliado de Vegeta e chega à Terra com o objetivo de conquistar o planeta e eliminar os guerreiros Z. Nappa é conhecido por sua força bruta e habilidades de combate, mas acaba sendo derrotado pelos guerreiros Z durante a batalha."
+    },
+    data: {
+      name: "Piccolo",
+      imageUrl: "https://i.pinimg.com/736x/0a/00/2e/0a002e97f7f58530021491c790025a3a.jpg",
+      ki: "800 milhões",
+      planetaId: 2,
+      racaId: 5,
+      tecnicasEspeciais: "Makankosappo, Regeneração, Fusão",
+      transformacoes: "Sim (Fusão com Kami e Nail)",
+      sagas: "Todas as sagas",
+      biografia: "Piccolo é um dos personagens principais da série Dragon Ball. Ele é um Namekuseijin que inicialmente aparece como um antagonista, mas eventualmente se torna um aliado dos guerreiros Z. Piccolo é conhecido por sua inteligência, habilidades de combate avançadas e técnicas poderosas, como o Makankosappo. Ele também possui a capacidade de regeneração e já se fundiu com outros Namekuseijins, como Kami e Nail, para aumentar seu poder."
+    },
+    data: {
+      name: "Raditz",
+      imageUrl: "https://i.pinimg.com/736x/f2/1e/ca/f21eca7c956c66997a8b156bb54dd8be.jpg",
+      ki: "1 mil",
+      planetaId: 3,
+      racaId: 7,
+      tecnicasEspeciais: "Força Sobre-humana, Habilidades de Combate Avançadas",
+      transformacoes: "Não",
+      sagas: "Saga Sayajins",
+      biografia: "Raditz é um guerreiro Saiyajin que aparece como o primeiro antagonista na série Dragon Ball Z. Ele é o irmão mais velho de Goku e chega à Terra para recrutar Goku para ajudar na conquista do planeta. Raditz é conhecido por sua força bruta e habilidades de combate, mas acaba sendo derrotado por Goku e Piccolo durante a batalha."
+    },
+    data: {
+      name: "Rei Vegeta",
+      imageUrl: "https://i.pinimg.com/736x/4f/09/ea/4f09ea5276bc5845f45a0c327610bfd1.jpg",
+      ki: "Desconhecido",
+      planetaId: 3,
+      racaId: 7,
+      tecnicasEspeciais: "Habilidades de Combate Avançadas",
+      transformacoes: "Não",
+      sagas: "Saga Freeza",
+      biografia: "Rei Vegeta é o pai de Vegeta e o antigo rei dos Saiyajins na série Dragon Ball Z. Ele é conhecido por sua personalidade orgulhosa e ambiciosa, buscando constantemente aumentar o poder e a influência dos Saiyajins. Rei Vegeta desempenha um papel crucial na história dos Saiyajins, especialmente em relação à destruição do Planeta Vegeta por Freeza."
+    },
+    data: {
+      name: "Rikum",
+      imageUrl: "https://static.wikia.nocookie.net/dragonball/images/8/8a/RecoomeTGFP.png/revision/latest/scale-to-width-down/535?cb=20150206190744&path-prefix=pt-br",
+      ki: "300 mil",
+      planetaId: null,
+      racaId: null,
+      tecnicasEspeciais: "Força Sobre-humana, Habilidades de Combate Avançadas",
+      transformacoes: "Não",
+      sagas: "Saga Freeza",
+      biografia: "Recoome é um membro do Esquadrão Ginyu, uma equipe de elite que serve sob o comando de Freeza. Ele é conhecido por sua força bruta e habilidades de combate impressionantes, bem como por sua personalidade excêntrica e teatral. Recoome é um lutador poderoso, mas acaba sendo derrotado pelos guerreiros Z durante a batalha em Namekusei."
+    },
+    data: {
+      name: "Sr. Popo",
+      imageUrl: "https://static.wikia.nocookie.net/dragonball/images/9/98/Mrpopo.png/revision/latest/scale-to-width-down/536?cb=20150209202341&path-prefix=pt-br",
+      ki: "Desconhecido",
+      planetaId: 1,
+      racaId: 2,
+      tecnicasEspeciais: "Habilidades de Combate Básicas, Assistência ao Kami",
+      transformacoes: "Não",
+      sagas: "Saga Sayajins, Saga Freeza, Saga de Cell, Saga Majin Boo, Dragon Ball Super",
+      biografia: "Sr. Popo é o assistente leal do Kami, o guardião da Terra, na série Dragon Ball. Ele é responsável por cuidar do Templo Sagrado e ajudar os guerreiros Z em várias ocasiões. Sr. Popo é conhecido por sua sabedoria, habilidades de combate básicas e devoção ao Kami. Apesar de sua aparência incomum, ele é um personagem importante na série, desempenhando um papel crucial na proteção da Terra."
+    },
+    data: {
+      name: "Tapion",
+      imageUrl: "https://i.pinimg.com/736x/4f/13/de/4f13de7fe6ac3ed1ea1e7dac392fdd02.jpg",
+      ki: "3.5 milhões",
+      planetaId: 9,
+      racaId: 9,
+      tecnicasEspeciais: "Força Sobre-humana, Habilidades de Combate Avançadas, Uso de Espada",
+      transformacoes: "Não",
+      sagas: "Dragon Ball Z: O Domínio dos Deuses",
+      biografia: "Tapion é um personagem que aparece no filme Dragon Ball Z: O Domínio dos Deuses. Ele é um guerreiro de um planeta distante que possui habilidades de combate impressionantes e é conhecido por sua força sobre-humana. Tapion é um personagem nobre e corajoso, disposto a sacrificar-se para proteger os outros. Ele desempenha um papel crucial na história do filme, ajudando Goku e seus amigos a enfrentar uma ameaça poderosa."
+    },
+    data: {
+      name: "Tenshinhan",
+      imageUrl: "https://i.pinimg.com/1200x/8b/bc/93/8bbc93e25e75d9514d31381552d7482b.jpg",
+      ki: "180 mil",
+      planetaId: 1,
+      racaId: 2,
+      tecnicasEspeciais: "Kikoho, Dodonpa, Shiyoken",
+      transformacoes: "Não",
+      sagas: "Todas as sagas",
+      biografia: "Tenshinhan é um dos guerreiros Z na série Dragon Ball. Ele é conhecido por sua habilidade de combate avançada e técnicas poderosas, como o Kikoho e o Dodonpa. Tenshinhan é um personagem sério e dedicado, muitas vezes servindo como um rival para Goku. Apesar de não ser tão poderoso quanto alguns dos outros guerreiros Z, ele demonstra grande determinação e bravura em batalha."
+    },
+    data: {
+      name: "Trunks (criança)",
+      imageUrl: "https://i.pinimg.com/1200x/82/94/17/829417b1bc2eda64e57d69c16197977b.jpg",
+      ki: "1 milhão",
+      planetaId: 1,
+      racaId: 7,
+      tecnicasEspeciais: "Fusão",
+      transformacoes: "Sim (Super Saiyajin, Fusão com Goten)",
+      sagas: "Saga Majin Boo",
+      biografia: "Trunks é o filho de Vegeta e Bulma na série Dragon Ball Z. Ele é um jovem guerreiro Saiyajin que possui habilidades de combate impressionantes, muitas vezes comparáveis às de seu pai. Trunks é conhecido por sua personalidade confiante e determinada, bem como por sua capacidade de se transformar em Super Saiyajin desde muito jovem. Ele também é capaz de se fundir com Goten para formar Gotenks, um guerreiro incrivelmente poderoso."
+    },
+    data: {
+      name: "Trunks (futuro)",
+      imageUrl: "https://i.pinimg.com/1200x/80/d3/43/80d34388660617f6d41871bce521103e.jpg",
+      ki: "2 milhões",
+      planetaId: 1,
+      racaId: 7,
+      tecnicasEspeciais: "Galick-ho, Habilidades de Combate Avançadas, Uso de Espada",
+      transformacoes: "Sim (Super Saiyajin)",
+      sagas: "Saga dos Andróides, Saga do Cell",
+      biografia: "Trunks do Futuro é uma versão alternativa de Trunks que vem de um futuro distópico na série Dragon Ball Z. Ele é o filho de Vegeta e Bulma, e viaja no tempo para avisar os guerreiros Z sobre a ameaça dos Andróides e Cell. Trunks do Futuro é um guerreiro habilidoso, conhecido por sua força, habilidades de combate avançadas e uso de uma espada. Ele é um personagem sério e determinado, disposto a fazer o que for necessário para proteger seu futuro."
+    },
+    data: {
+      name: "Vegeta",
+      imageUrl: "https://i.pinimg.com/736x/30/09/89/3009894ff61c6b691fb4ec13c2eb2093.jpg",
+      ki: "49 bilhões",
+      planetaId: 3,
+      racaId: 7,
+      tecnicasEspeciais: "Galick-ho, Final Flash, Big Bang Attack",
+      transformacoes: "Sim (Ozaru, Super Saiyajin, Super Saiyajin Red, Super Saiyajin Blue)",
+      sagas: "Todas as sagas",
+      biografia: "Vegeta é o príncipe dos Saiyajins e um dos personagens principais da série Dragon Ball. Inicialmente introduzido como um antagonista, Vegeta eventualmente se torna um aliado dos guerreiros Z. Ele é conhecido por sua personalidade orgulhosa e competitiva, bem como por sua determinação em se tornar o guerreiro mais poderoso do universo. Vegeta possui várias transformações poderosas, incluindo Super Saiyajin e Super Saiyajin Blue, e é um lutador habilidoso com técnicas devastadoras como o Galick-ho e o Final Flash."
+    },
+    data: {
+      name: "Velho Kaioshin",
+      imageUrl: "https://static.wikia.nocookie.net/dragonball/images/a/a3/OldKaiNV.png/revision/latest/scale-to-width-down/536?cb=20150112215920&path-prefix=pt-br",
+      ki: "Desconhecido",
+      planetaId: 15,
+      racaId: 3,
+      tecnicasEspeciais: "Teletransporte, Treinamento de Artes Marciais",
+      transformacoes: "Não",
+      sagas: "Saga Majin Boo, Dragon Ball Super",
+      biografia: "Velho Kaioshin, também conhecido como Old Kai, é um dos quatro Kaioshins do universo em Dragon Ball. Ele é um personagem sábio e excêntrico que desempenha um papel crucial na série, especialmente durante a Saga Majin Boo. Velho Kaioshin é conhecido por sua habilidade de desbloquear o potencial oculto dos guerreiros, ajudando Gohan a alcançar seu estado de Potencial Liberado. Apesar de sua aparência idosa e comportamento peculiar, ele é um personagem importante na série, oferecendo orientação e apoio aos guerreiros Z."
+    },
+    data: {
+      name: "Videl",
+      imageUrl: "https://i.pinimg.com/1200x/93/d7/b2/93d7b20c50fc6df4699a186d0105e6fd.jpg",
+      ki: "Desconhecido",
+      planetaId: 1,
+      racaId: 2,
+      tecnicasEspeciais: "Habilidades de Combate Básicas, Voo",
+      transformacoes: "Não",
+      sagas: "Saga Majin Boo, Dragon Ball Super",
+      biografia: "Videl é a filha de Mr. Satan e uma personagem importante na série Dragon Ball Z. Ela é uma lutadora habilidosa que aprende a voar e usar ki com a ajuda de Gohan. Videl eventualmente se torna a esposa de Gohan e mãe de Pan. Ela é conhecida por sua personalidade forte e determinada, bem como por seu desejo de proteger aqueles que ama."
+    },
+    data: {
+      name: "Mr. Satan",
+      imageUrl: "https://i.pinimg.com/736x/a6/98/52/a6985292c3c76afeff03d624e56e4dc3.jpg",
+      ki: "Desconhecido",
+      planetaId: 1,
+      racaId: 2,
+      tecnicasEspeciais: "Habilidades de Combate Básicas",
+      transformacoes: "Não",
+      sagas: "Saga Majin Boo, Dragon Ball Super",
+      biografia: "Mr. Satan, também conhecido como Hercule na versão em inglês, é um personagem cômico na série Dragon Ball Z. Ele é um lutador de artes marciais que se torna famoso por derrotar Cell, embora na verdade tenha sido Gohan quem o derrotou. Mr. Satan é conhecido por sua personalidade exagerada e senso de humor, muitas vezes servindo como alívio cômico na série. Apesar de não ser tão poderoso quanto os guerreiros Z, ele desempenha um papel importante na história, especialmente durante a Saga Majin Boo."
+    },
+    data: {
+      name: "Whis",
+      imageUrl: "https://i.pinimg.com/1200x/2d/2c/b1/2d2cb1a309473ae7bf3ab398080691e8.jpg"
+      ki: "Desconhecido",
+      planetaId: 11,
+      racaId: null,
+      tecnicasEspeciais: "Manipulação do Tempo, Habilidades de Combate Avançadas",
+      transformacoes: "Não",
+      sagas: "Dragon Ball Super",
+      biografia: "Whis é um personagem poderoso na série Dragon Ball Super. Ele é o anjo assistente do Deus da Destruição, Beerus, e serve como seu mestre e guia. Whis é conhecido por sua habilidade de manipular o tempo, permitindo-lhe reverter eventos recentes. Ele também é um lutador habilidoso, capaz de derrotar facilmente guerreiros poderosos. Apesar de sua natureza calma e serena, Whis desempenha um papel crucial na série, ajudando Goku e Vegeta a alcançar novos níveis de poder."
+    },
+    data: {
+      name: "Yamcha",
+      imageUrl: "https://i.pinimg.com/1200x/78/43/5c/78435c0690153247753a347e154970df.jpg",
+      ki: "80 mil",
+      planetaId: 1,
+      racaId: 2,
+      tecnicasEspeciais: "Kamehameha, Roubo de Energia",
+      transformacoes: "Não",
+      sagas: "Todas as sagas",
+      biografia: "Yamcha é um dos primeiros personagens introduzidos na série Dragon Ball. Ele é um lutador habilidoso e ex-ladrão que se torna um aliado dos guerreiros Z. Yamcha é conhecido por suas habilidades de combate, incluindo o Kamehameha e a técnica de Roubo de Energia. Apesar de não ser tão poderoso quanto alguns dos outros guerreiros Z, Yamcha demonstra grande coragem e determinação em batalha. Ele também é conhecido por sua personalidade descontraída e senso de humor."
+    },
+    data: {
+      name: "Zarbon",
+      imageUrl: "https://i.pinimg.com/1200x/84/f8/df/84f8df2bc5d11d7aa799f7084f30fc25.jpg",
+      ki: "100 mil",
+      planetaId: null,
+      racaId: null,
+      tecnicasEspeciais: "Transformações, Força Sobre-humana",
+      transformacoes: "Sim (Forma Monstruosa)",
+      sagas: "Saga Freeza",
+      biografia: "Zarbon é um dos principais tenentes de Freeza na série Dragon Ball Z. Ele é conhecido por sua aparência elegante e habilidades de combate impressionantes. Zarbon possui a capacidade de se transformar em uma forma monstruosa, aumentando significativamente seu poder e força. Ele é um lutador astuto e estratégico, mas acaba sendo derrotado pelos guerreiros Z durante a batalha em Namekusei."
+    },
     
-
   }]);
 
   // Cards para NBA Legends
