@@ -164,167 +164,185 @@ async function main() {
       },
     });
 
-
-  // Criar planetas de diferentes temáticas
-
-
-  const racas = await prisma.collection.create([
-    {
-      data: {
-        name: "Andróides",
-        descricao:
-          "Andróides são Terráqueos cyborgs/robóticos, a maioria criados pelo cientista Dr. Gero. É dito que maioria dos androides têm energia ilimitada e vida eterna. Devido à sua natureza inorgânica, eles também não tem aura (ao contrário de Saiyajins, Terráqueos, e outros), então eles não podem ser rastreados usando rastreadores ou pelo Ki.",
-        imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/1/10/Androids.jpeg/revision/latest?cb=20141228144731&path-prefix=pt-br",
-        caracteristicas:
-          "Possuem energia ilimitada, vida eterna, não possuem aura",
-        habilidadesEspeciais:
-          "Resistência maior a danos, força sobre-humana, indetectáveis por rastreadores de Ki e energia ilimitada",
-        nivelPoderMedio: "Extremamente alto",
-        planetaId: 1,
-      },
-      data: {
-        name: "Terráqueos",
-        descricao:
-          "Terráqueos são os principais habitantes do planeta Terra em Dragon Ball.",
-        imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/d/d8/SatanFan%28Jmp%29.png/revision/latest/scale-to-width-down/300?cb=20130815170824&path-prefix=pt-br",
-        caracteristicas:
-          "Menos poderosos comparados a maioria e grande diversidade.",
-        habilidadesEspeciais: "Extremamente variado, dependendo do indivíduo",
-        nivelPoderMedio: "Baixo",
-        planetaId: 1,
-      },
-      data: {
-        name: "Glind",
-        descricao:
-          "Os Glinds são a raça da qual os Kaiohshins fazem parte, e são originários do Segundo Reino dos Demônios antes de saírem e se mudarem para outros universos.",
-        imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/7/7f/Glinds.png/revision/latest/scale-to-width-down/350?cb=20241115221012&path-prefix=pt-br",
-        caracteristicas:
-          "Humanoides com orelhas pontudas, pele de cores incomuns (verde, azul, roxo), aliados do bem e seres com poderes espirituais",
-        habilidadesEspeciais:
-          "Poderes espirituais e imortalidade (não envelhecem)",
-        nivelPoderMedio: "Alto",
-        planetaId: 15,
-      },
-      data: {
-        name: "Majin",
-        descricao:
-          "Majin é uma raça que estreia com Majin Boo na saga Majin Boo em Dragon Ball Z. São seres magicos com habilidades únicas e poderes incríveis.",
-        imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/e/ee/DjinnDBOWallpaper.png/revision/latest/scale-to-width-down/300?cb=20130825165446&path-prefix=pt-br",
-        caracteristicas:
-          "Possuem corpos maleáveis e flexíveis, podem tranfoormar objetos e pessoas em doces, são feitos de magias e sua pele é semelhante a um chiclete rosa",
-        habilidadesEspeciais:
-          "Regeneração total de seu corpo, transformações de coisas e seres em doces, poder de cura e poder de absorção",
-        nivelPoderMedio: "Extremamente alto",
-        planetaId: 15,
-      },
-      data: {
-        name: "Nmaekuseijin",
-        descricao:
-          "Namekuseijins  são uma raça originária do Reino dos Demônios. Eles existem tanto no Universo 6 quanto no Universo 7, habitando o planeta Namekusei nesses universos, tendo se mudado do Reino dos Demônios para lá há muito tempo. Eles estão entre as raças mais importantes da série, pois eles são os criadores das Esferas do Dragão.",
-        imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/f/f1/Namekians03.png/revision/latest/scale-to-width-down/300?cb=20150104110503&path-prefix=pt-br",
-        caracteristicas:
-          "Humanoides de pele verde, antenas na cabeça, com alta expectativa de vida",
-        habilidadesEspeciais:
-          "Regeneração, poderes mágicos, podem criar Esferas do Dragão e podem se multiplicar",
-        nivelPoderMedio: "Médio-alto",
-        planetaId: 2,
-      },
-      data: {
-        name: "Raça do Freeza",
-        descricao:
-          "Raça do Freeza é a misteriosa raça sem nome que Freeza, Rei Cold, Coola, Kuriza, Chilled, e Frost pertencem. A raça é introduzida na série na saga Namekusei de Dragon Ball Z.",
-        imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/6/6a/KingColdandFreezainHell.png/revision/latest/scale-to-width-down/300?cb=20150217141835&path-prefix=pt-br",
-        caracteristicas: "Humanoides com cauda, pele de cores incomeuns",
-        habilidadesEspeciais:
-          "Transformações que elevam seu poder de luta e podem sobreviver no espaço",
-        nivelPoderMedio: "Extremamente alto",
-        planetaId: 5,
-      },
-      data: {
-        name: "Saiyajin",
-        descricao:
-          "Os Saiyajins  são uma raça guerreira que foi quase toda extinta por Freeza antes do começo da série Dragon Ball. Eles têm um papel central em Dragon Ball Z, Dragon Ball GT, e Dragon Ball Super após ser revelado que o protagonista Goku é na verdade um Saiyajin que foi mandado para destruir a Terra.",
-        imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/c/c4/SaiyansDBKK.png/revision/latest/scale-to-width-down/270?cb=20130814021958&path-prefix=pt-br",
-        caracteristicas:
-          "Humanoides com cauda de macaco, pele clara, cabelos pretos e espetados",
-        habilidadesEspeciais:
-          "Transformações que elevam seu poder de luta, força sobre-humano, evoluções de poderes rápidas e constantes após cada batalha",
-        nivelPoderMedio: "Extremamente alto",
-        planetaId: 3,
-      },
-      data: {
-        name: "Raça Hera",
-        descricao:
-          "Uma raça alienigena que habita no planeta Hera, incluindo Bojack, Zangya, Bido e Kogu.",
-        imageUrl:
-          "https://preview.redd.it/s9caxdxw8xr71.jpg?auto=webp&s=d43e1569e2ab851bdcfff2b9043c26e3cf8fab7d",
-        caracteristicas:
-          "Humanoides com pele azul, verde ou roxa, cabelos de cores vivas (azul, rosa, roxo)",
-        habilidadesEspeciais:
-          "Força física extremamente alta, habilidades de luta avançadas",
-        nivelPoderMedio: "Alto",
-        planetaId: 7,
-      },
-      data: {
-        name: "Konatsu-seijins",
-        descricao:
-          "Os Konatsu-seijins  são uma raça de guerreiros do planeta Konatsu na Galáxia Sul. Eles são conhecidos por sua força e habilidades de luta.",
-        imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/0/08/Tapion_and_minotia.jpg/revision/latest/scale-to-width-down/180?cb=20150128163925&path-prefix=pt-br",
-        caracteristicas:
-          "Cabelos vermelhos, orelhas pontudas algo que remete um anel na cabeça",
-        habilidadesEspeciais: "Habilidades de luta avançadas, uso de espadas",
-        nivelPoderMedio: "Médio",
-        planetaId: 9,
-      },
-      data: {
-        name: "Saibaimans",
-        descricao:
-          "Saibaimans são plantas alienígenas que se assemelham a pequenos arbustos com rostos e braços. Eles são criados e controlados por Freeza e seu exército para lutar contra seus inimigos.",
-        imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/8/8b/SaiabamenInfoBox.jpeg/revision/latest/scale-to-width-down/536?cb=20141227155300&path-prefix=pt-br",
-        caracteristicas:
-          "Pequenos arbustos com rostos e braços com cores variadas",
-        habilidadesEspeciais: "Explodem ao contato, podem se multiplicar",
-        nivelPoderMedio: "Baixo",
-        planetaId: 3,
-      },
-      data: {
-        name: "Yardrat",
-        descricao:
-          "Yardrats são uma raça do Planeta Yardrat. Eles são uma raça fisicamente frágil, mas possuem a habilidade de manipular espaço e tempo, e ensinam a técnica do Teletransporte para Goku.",
-        imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/6/6c/Yadrats.png/revision/latest/scale-to-width-down/300?cb=20150210230113&path-prefix=pt-br",
-        caracteristicas:
-          "Pequenos humanoides com pele rosa com orelhas pontudas",
-        habilidadesEspeciais:
-          "Manipulação de espaço e tempo, Teletransporte e hablidades especiais",
-        nivelPoderMedio: "Médio",
-        planetaId: 14,
-      },
-      data: {
-        name: "Litt-seijins",
-        descricao:
-          "Os Litt-seijins  são uma raça de guerreiros do planeta Litt. Eles são conhecidos por sua força e habilidades de luta.",
-        imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/6/6c/Bird-LikeFriezaSoldier.png/revision/latest/scale-to-width-down/300?cb=20150218170353&path-prefix=pt-br",
-        caracteristicas: "Humanoides com pele verde e penas coloridas",
-        habilidadesEspeciais: "Habilidades de luta avançadas, voo",
-        nivelPoderMedio: "Médio",
-        planetaId: 13,
-      },
+ const racasTotal = await Promise.all([
+prisma.raca.create({
+    data: {
+      name: "Andróides",
+      descricao:
+        "Andróides são Terráqueos cyborgs/robóticos, a maioria criados pelo cientista Dr. Gero. É dito que maioria dos androides têm energia ilimitada e vida eterna. Devido à sua natureza inorgânica, eles também não tem aura (ao contrário de Saiyajins, Terráqueos, e outros), então eles não podem ser rastreados usando rastreadores ou pelo Ki.",
+      imageUrl: 
+        "https://static.wikia.nocookie.net/dragonball/images/1/10/Androids.jpeg/revision/latest?cb=20141228144731&path-prefix=pt-br",
+      caracteristicas:
+        "Possuem energia ilimitada, vida eterna, não possuem aura",
+      habilidadesEspeciais:
+        "Resistência maior a danos, força sobre-humana, indetectáveis por rastreadores de Ki e energia ilimitada",
+      nivelPoderMedio: "Extremamente alto",
+      planetaId: 1,
     },
+  }),
+  prisma.raca.create({
+    data: {
+      name: "Terráqueos",
+      descricao:
+        "Terráqueos são os principais habitantes do planeta Terra em Dragon Ball.",
+      imageUrl:
+        "https://static.wikia.nocookie.net/dragonball/images/d/d8/SatanFan%28Jmp%29.png/revision/latest/scale-to-width-down/300?cb=20130815170824&path-prefix=pt-br",
+      caracteristicas:
+        "Menos poderosos comparados a maioria e grande diversidade.",
+      habilidadesEspeciais: "Extremamente variado, dependendo do indivíduo",
+      nivelPoderMedio: "Baixo",
+      planetaId: 1,
+    },
+  }),
+  prisma.raca.create({
+    data: {
+      name: "Glinds",
+      descricao:
+        "Os Glinds são a raça da qual os Kaiohshins fazem parte, e são originários do Segundo Reino dos Demônios antes de saírem e se mudarem para outros universos.",
+      imageUrl:
+        "https://static.wikia.nocookie.net/dragonball/images/7/7f/Glinds.png/revision/latest/scale-to-width-down/350?cb=20241115221012&path-prefix=pt-br",
+      caracteristicas:
+        "Humanoides com orelhas pontudas, pele de cores incomuns (verde, azul, roxo), aliados do bem e seres com poderes espirituais",
+      habilidadesEspeciais:
+        "Poderes espirituais e imortalidade (não envelhecem)",
+      nivelPoderMedio: "Alto",
+      planetaId: 15,
+    },
+  }),
+  prisma.raca.create({
+    data: {
+      name: "Majin",
+      descricao:
+        "Majin é uma raça que estreia com Majin Boo na saga Majin Boo em Dragon Ball Z. São seres magicos com habilidades únicas e poderes incríveis.",
+      imageUrl:
+        "https://static.wikia.nocookie.net/dragonball/images/e/ee/DjinnDBOWallpaper.png/revision/latest/scale-to-width-down/300?cb=20130825165446&path-prefix=pt-br",
+      caracteristicas:
+        "Possuem corpos maleáveis e flexíveis, podem tranfoormar objetos e pessoas em doces, são feitos de magias e sua pele é semelhante a um chiclete rosa",
+      habilidadesEspeciais:
+        "Regeneração total de seu corpo, transformações de coisas e seres em doces, poder de cura e poder de absorção",
+      nivelPoderMedio: "Extremamente alto",
+      planetaId: 15,
+    },
+  }),
+  prisma.raca.create({
+    data: {
+      name: "Nmaekuseijin",
+      descricao:
+        "Namekuseijins  são uma raça originária do Reino dos Demônios. Eles existem tanto no Universo 6 quanto no Universo 7, habitando o planeta Namekusei nesses universos, tendo se mudado do Reino dos Demônios para lá há muito tempo. Eles estão entre as raças mais importantes da série, pois eles são os criadores das Esferas do Dragão.",
+      imageUrl:
+        "https://static.wikia.nocookie.net/dragonball/images/f/f1/Namekians03.png/revision/latest/scale-to-width-down/300?cb=20150104110503&path-prefix=pt-br",
+      caracteristicas:
+        "Humanoides de pele verde, antenas na cabeça, com alta expectativa de vida",
+      habilidadesEspeciais:
+        "Regeneração, poderes mágicos, podem criar Esferas do Dragão e podem se multiplicar",
+      nivelPoderMedio: "Médio-alto",
+      planetaId: 2,
+    },
+  }),
+  prisma.raca.create({
+    data: {
+    name: "Raça do Freeza",
+    descricao:
+      "Raça do Freeza é a misteriosa raça sem nome que Freeza, Rei Cold, Coola, Kuriza, Chilled, e Frost pertencem. A raça é introduzida na série na saga Namekusei de Dragon Ball Z.",
+    imageUrl:
+      "https://static.wikia.nocookie.net/dragonball/images/6/6a/KingColdandFreezainHell.png/revision/latest/scale-to-width-down/300?cb=20150217141835&path-prefix=pt-br",
+    caracteristicas: "Humanoides com cauda, pele de cores incomeuns",
+    habilidadesEspeciais:
+      "Transformações que elevam seu poder de luta e podem sobreviver no espaço",
+    nivelPoderMedio: "Extremamente alto",
+    planetaId: 5,
+  },
+  }),
+  prisma.raca.create({
+    data: {
+      name: "Saiyajin",
+      descricao:
+        "Os Saiyajins  são uma raça guerreira que foi quase toda extinta por Freeza antes do começo da série Dragon Ball. Eles têm um papel central em Dragon Ball Z, Dragon Ball GT, e Dragon Ball Super após ser revelado que o protagonista Goku é na verdade um Saiyajin que foi mandado para destruir a Terra.",
+      imageUrl:
+        "https://static.wikia.nocookie.net/dragonball/images/c/c4/SaiyansDBKK.png/revision/latest/scale-to-width-down/270?cb=20130814021958&path-prefix=pt-br",
+      caracteristicas:
+        "Humanoides com cauda de macaco, pele clara, cabelos pretos e espetados",
+      habilidadesEspeciais:
+        "Transformações que elevam seu poder de luta, força sobre-humano, evoluções de poderes rápidas e constantes após cada batalha",
+      nivelPoderMedio: "Alto",
+      planetaId: 3,
+    },
+  }),
+  prisma.raca.create({
+    data: {
+      name: "Raça Hera",
+      descricao:
+        "Uma raça alienigena que habita no planeta Hera, incluindo Bojack, Zangya, Bido e Kogu.",
+      imageUrl:
+        "https://preview.redd.it/s9caxdxw8xr71.jpg?auto=webp&s=d43e1569e2ab851bdcfff2b9043c26e3cf8fab7d",
+      caracteristicas:
+        "Humanoides com pele azul, verde ou roxa, cabelos de cores vivas (azul, rosa, roxo)" ,
+      habilidadesEspeciais:
+        "Força física extremamente alta, habilidades de luta avançadas",
+      nivelPoderMedio: "Alto",
+      planetaId: 7,
+    },
+  }),
+  prisma.raca.create({
+    data: {
+      name: "Konatsu-seijins",
+      descricao:
+        "Os Konatsu-seijins  são uma raça de guerreiros do planeta Konatsu na Galáxia Sul. Eles são conhecidos por sua força e habilidades de luta.",
+      imageUrl:
+        "https://static.wikia.nocookie.net/dragonball/images/0/08/Tapion_and_minotia.jpg/revision/latest/scale-to-width-down/180?cb=20150128163925&path-prefix=pt-br",
+      caracteristicas:
+        "Cabelos vermelhos, orelhas pontudas algo que remete um anel na cabeça",
+      habilidadesEspeciais: "Habilidades de luta avançadas, uso de espadas",
+      nivelPoderMedio: "Médio",
+      planetaId: 9,
+    },
+  }),
+  prisma.raca.create({
+    data: {
+      name: "Saibaimans",
+      descricao:
+        "Saibaimans são plantas alienígenas que se assemelham a pequenos arbustos com rostos e braços. Eles são criados e controlados por Freeza e seu exército para lutar contra seus inimigos.",
+      imageUrl:
+        "https://static.wikia.nocookie.net/dragonball/images/8/8b/SaiabamenInfoBox.jpeg/revision/latest/scale-to-width-down/536?cb=20141227155300&path-prefix=pt-br",
+      caracteristicas:
+        "Pequenos arbustos com rostos e braços com cores variadas",
+      habilidadesEspeciais: "Explodem ao contato, podem se multiplicar",
+      nivelPoderMedio: "Baixo",
+      planetaId: 3,
+    },
+  }),
+  prisma.raca.create({
+    data: {
+      name: "Yardrat",
+      descricao:
+        "Yardrats são uma raça do Planeta Yardrat. Eles são uma raça fisicamente frágil, mas possuem a habilidade de manipular espaço e tempo, e ensinam a técnica do Teletransporte para Goku.",
+      imageUrl:
+        "https://static.wikia.nocookie.net/dragonball/images/6/6c/Yadrats.png/revision/latest/scale-to-width-down/300?cb=20150210230113&path-prefix=pt-br",
+      caracteristicas:
+        "Pequenos humanoides com pele rosa com orelhas pontudas",
+      habilidadesEspeciais:
+        "Manipulação de espaço e tempo, Teletransporte e hablidades especiais",
+      nivelPoderMedio: "Médio",
+      planetaId: 14,
+    },
+  }),
+  prisma.raca.create({
+    data: {
+      name: "Litt-seijins",
+      descricao:
+        "Os Litt-seijins  são uma raça de guerreiros do planeta Litt. Eles são conhecidos por sua força e habilidades de luta.",
+      imageUrl:
+        "https://static.wikia.nocookie.net/dragonball/images/6/6c/Bird-LikeFriezaSoldier.png/revision/latest/scale-to-width-down/300?cb=20150218170353&path-prefix=pt-br",
+      caracteristicas: "Humanoides com pele verde e penas coloridas",
+      habilidadesEspeciais: "Habilidades de luta avançadas, voo",
+      nivelPoderMedio: "Médio",
+      planetaId: 13,
+    },
+  })
   ]);
 
-  const personagens = await prisma.collection.create([
-    {
+  const personagensTotal = await Promise.all([
+    prisma.personagem.create({
       data: {
         name: "Andróide 13",
         imageUrl:
@@ -338,6 +356,8 @@ async function main() {
         biografia:
           "Andróide 13 é um dos antagonistas do filme Dragon Ball Z: O Super Andróide. Ele é um andróide criado pelo Dr. Gero com o objetivo de eliminar Goku. Andróide 13 é conhecido por sua força imensa e habilidades de combate avançadas.",
       },
+    }),
+    prisma.personagem.create({
       data: {
         name: "Andróide 14",
         imageUrl:
@@ -351,6 +371,8 @@ async function main() {
         biografia:
           "Andróide 14 é um dos antagonistas do filme Dragon Ball Z: O Super Andróide. Ele é um andróide criado pelo Dr. Gero com o objetivo de eliminar Goku. Andróide 14 é conhecido por sua força imensa e habilidades de combate avançadas.",
       },
+    }),
+    prisma.personagem.create({
       data: {
         name: "Andróide 15",
         imageUrl:
@@ -364,6 +386,8 @@ async function main() {
         biografia:
           "Andróide 15 é um dos antagonistas do filme Dragon Ball Z: O Super Andróide. Ele é um andróide criado pelo Dr. Gero com o objetivo de eliminar Goku. Andróide 15 é conhecido por sua força imensa e habilidades de combate avançadas.",
       },
+    }),
+    prisma.personagem.create({
       data: {
         name: "Andróide 16",
         imageUrl:
@@ -378,6 +402,8 @@ async function main() {
         biografia:
           "Andróide 16 é um dos antagonistas da série Dragon Ball Z. Ele é um andróide criado pelo Dr. Gero com o objetivo de eliminar Goku. Andróide 16 é conhecido por sua força imensa, habilidades de combate avançadas e sua natureza pacífica, apesar de ser um andróide.",
       },
+    }),
+    prisma.personagem.create({
       data: {
         name: "Andróide 17",
         imageUrl:
@@ -392,6 +418,8 @@ async function main() {
         biografia:
           "Andróide 17 é um dos antagonistas da série Dragon Ball Z e posteriormente um aliado em Dragon Ball Super. Ele é um andróide criado pelo Dr. Gero com o objetivo de eliminar Goku. Andróide 17 é conhecido por sua força imensa, habilidades de combate avançadas e sua personalidade fria e calculista.",
       },
+    }),
+    prisma.personagem.create({
       data: {
         name: "Andróide 18",
         imageUrl:
@@ -407,6 +435,14 @@ async function main() {
         biografia:
           "Andróide 18 é uma das antagonistas da série Dragon Ball Z e posteriormente uma aliada em Dragon Ball Super. Ela é um andróide criado pelo Dr. Gero com o objetivo de eliminar Goku. Andróide 18 é conhecida por sua força imensa, habilidades de combate avançadas e sua personalidade fria e calculista, mas também mostra um lado mais humano após se casar com Kuririn.",
       },
+    }),
+    prisma.personagem.create({
+      data: {
+
+  ]);
+
+  const personagens = await prisma.collection.create([
+    {
       data: {
         name: "Andróide 19",
         imageUrl:
