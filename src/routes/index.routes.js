@@ -10,9 +10,6 @@ const router = express.Router();
 // Rotas públicas
 router.use("/raca", racaRouter);
 
-// Rotas protegidas
-router.use(authMiddleware);
-
 router.use("/planetas", planetaRouter);
 router.use("/personagens", personagemRouter);
 
