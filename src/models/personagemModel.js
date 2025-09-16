@@ -4,9 +4,7 @@ class PersonagemModel {
   // Obter todos os personagens
   async findAll() {
     const personagens = await prisma.personagem.findMany({
-      orderBy: {
-        createdAt: "desc",
-      },
+
     });
 
     console.log(personagens);
