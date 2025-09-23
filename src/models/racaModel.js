@@ -4,9 +4,7 @@ class RacaModel {
   // Obter todas as raças
   async findAll() {
     const racas = await prisma.raca.findMany({
-      orderBy: {
-        createdAt: "desc",
-      },
+      
     });
 
     return racas;

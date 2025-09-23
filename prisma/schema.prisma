@@ -12,11 +12,15 @@ datasource db {
 
 model Raca {
   id           Int          @id @default(autoincrement())
-  nome         String       @unique
+  name         String       @unique
   descricao    String?
-  mundoNatal   String?
-  habilidades  String?      // JSON string for special abilities
+  caracteristicas String?
+  habilidadesEspeciais  String?      // JSON string for special abilities
+  nivelPoderMedio String?
+  planetaId    Int
+  imageUrl    String?
   personagens  Personagem[]
+planeta            Planeta  @relation(fields: [planetaId], references: [id])
 
   criadoEm     DateTime     @default(now())
   atualizadoEm DateTime     @updatedAt
@@ -26,12 +30,12 @@ model Raca {
 
 model Planeta {
   id           Int          @id @default(autoincrement())
-  nome         String       @unique
+  name         String       @unique
   descricao    String?
-  galaxia      String?
-  populacao    String?
-  clima        String?
+  nivelPoder   String?
   personagens  Personagem[]
+  racas        Raca[]
+  imageUrl    String?
 
   criadoEm     DateTime     @default(now())
   atualizadoEm DateTime     @updatedAt
@@ -41,15 +45,15 @@ model Planeta {
 
 model Personagem {
   id                 Int      @id @default(autoincrement())
-  nome               String
-  ki                 Int?
+  name               String
+  ki                 String?
   racaId             Int
   planetaId          Int
   tecnicasEspeciais  String?  // JSON string for array of techniques
-  aparicoesSagas     String?  // JSON string for array of sagas
+  sagas     String?  // JSON string for array of sagas
   transformacoes     String?  // JSON string for array of transformations
   biografia          String?
-  imagemUrl          String?
+  imageUrl          String?
   raca               Raca     @relation(fields: [racaId], references: [id])
   planeta            Planeta  @relation(fields: [planetaId], references: [id])
 

@@ -4,9 +4,7 @@ class PlanetaModel {
   // Obter todos os planetas
   async findAll() {
     const planetas = await prisma.planeta.findMany({
-      orderBy: {
-        createdAt: "desc",
-      },
+      
     });
 
     return planetas;
