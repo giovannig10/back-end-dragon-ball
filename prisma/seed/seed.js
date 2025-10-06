@@ -5,13 +5,6 @@ import personagensModel from "../../src/models/personagemModel.js";
 const prisma = new PrismaClient();
 
 async function main() {
-  console.log("Iniciando o seed...");
- await prisma.planeta.deleteMany({});
- await prisma.raca.deleteMany({});
- await prisma.personagem.deleteMany({});
-
-  // Código opcional para limpar o banco de dados antes de inserir novos dados
-  // await prisma.planeta.deleteMany({});
 
   const planetaTotal = await Promise.all([
     prisma.planeta.create({
