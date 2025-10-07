@@ -12,7 +12,7 @@ datasource db {
 
 model Raca {
   id           Int          @id @default(autoincrement())
-  name         String       @unique
+  name         String       
   descricao    String?
   caracteristicas String?
   habilidadesEspeciais  String?      // JSON string for special abilities
@@ -30,7 +30,7 @@ planeta            Planeta  @relation(fields: [planetaId], references: [id])
 
 model Planeta {
   id           Int          @id @default(autoincrement())
-  name         String       @unique
+  name         String       
   descricao    String?
   nivelPoder   String?
   personagens  Personagem[]

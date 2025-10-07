@@ -13,7 +13,7 @@ async function main() {
         descricao:
           "Planeta natal dos humanos e local central na maior parte da série. Possui enorme diversidade de seres e riquezas naturais.",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/8/8e/EarthEp163.png/revision/latest?cb=20150124184006&path-prefix=pt-br",
+          "https://i.pinimg.com/1200x/37/f2/98/37f298c23875401381aa5dbde4bdd2f4.jpg",
         nivelPoder: "Extremamente variado",
       },
     }),
@@ -24,18 +24,18 @@ async function main() {
         descricao: 
           "Planeta natal dos Namekuseijins; ambiente aquático e perigoso, palco da saga das esferas do dragão originais.",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/4/43/NamekGreenPlanet.png/revision/latest?cb=20150208114703&path-prefix=pt-br",
+          "https://i.pinimg.com/1200x/6a/0b/1a/6a0b1a1e8ca723395dffa06c21297eb3.jpg",
         nivelPoder: "Médio-alto",
       },
     }),
     
     prisma.planeta.create({
       data: {
-        name: "Vegetta",
+        name: "Vegeta",
         descricao:
           "Planeta natal dos Saiyajins, destruído por Freeza; ambiente hostil, força bruta entre os habitantes.",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/d/d6/PlanetVegetaBeforeItWasD.png/revision/latest/scale-to-width-down/300?cb=20130814022903&path-prefix=pt-br",
+          "https://i.pinimg.com/1200x/62/89/35/628935d11e6b4b68f63df2576e76881b.jpg",
         nivelPoder: "Alto",
       },
     }),
@@ -45,7 +45,7 @@ async function main() {
         descricao:
           "	Pequeno planeta do Kaio do Norte, usado como local de treino de Goku; gravidade é 10x maior que a Terra.",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/5/5e/KingKaisPlanetNV.png/revision/latest?cb=20150201015228&path-prefix=pt-br",
+          "https://i.pinimg.com/1200x/e9/3c/e7/e93ce7e7e10916dd4dec5bcff50d23cb.jpg",
         nivelPoder: "Baixo",
       },
     }),
@@ -55,7 +55,7 @@ async function main() {
         descricao:
           "Base militar de Freeza; planetas conquistados pelo exército do vilão.",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/4/48/Frieza79.png/revision/latest?cb=20141227173809&path-prefix=pt-br",
+          "https://i.pinimg.com/1200x/71/d6/9d/71d69db45e26329c7b4d051deffdacc5.jpg",
         nivelPoder: "Alto",
       },
     }),
@@ -65,7 +65,7 @@ async function main() {
         descricao:
           "Planeta dos Arlianos, insectoides, destruído por Vegeta.",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/e/ee/Planeta_Arlia.jpg/revision/latest?cb=20140322140404&path-prefix=pt-br",
+          "https://i.ibb.co/YBq6KBkY/download.jpg",
         nivelPoder: "Baixo",
       },
     }),
@@ -75,7 +75,7 @@ async function main() {
         descricao:
           "Planeta natal de Bojack e capangas, todos muito poderosos comparados à média do universo.",
         imageUrl:
-          "https://static.wikia.nocookie.net/dblegacy/images/9/90/Planethera.png/revision/latest?cb=20140329223032",
+          "https://static.wikia.nocookie.net/dblegacy/images/9/90/Planethera.png",
         nivelPoder: "Alto",
       },
     }),
@@ -85,7 +85,7 @@ async function main() {
         descricao:
           "A Estrela Gete é um grande planeta-monstro que eventualmente absorveu os restos de Coola, que permitiu que ele controlasse a estrela em Dragon Ball Z: O Retorno de Coola.",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/c/cc/Screenshotsdbzmovie6_017.jpg/revision/latest/scale-to-width-down/536?cb=20150224154702&path-prefix=pt-br",
+          "https://i.ibb.co/chr05yNQ/Screenshotsdbzmovie6-017.webp",
         nivelPoder: "Infinito",
       },
     }),
@@ -95,7 +95,7 @@ async function main() {
         descricao:
           "Konatsu é um planeta na Galáxia Sul que é o lar dos Konatsu-seijins, incluindo os dois irmãos guerreiros Tapion e Minotia.",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/0/0c/Konats.jpg/revision/latest/scale-to-width-down/180?cb=20150204202030&path-prefix=pt-br",
+          "https://static.wikia.nocookie.net/dragonball/images/0/0c/Konats.jpg",
         nivelPoder: "Médio",
       },
     }),
@@ -105,7 +105,7 @@ async function main() {
         descricao:
           "Novo Planeta Vegeta  era um planeta que seria o lar dos Saiyajins restantes após a destruição do original Planeta Vegeta por Freeza.",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/5/5c/New_Planet_Vegeta.jpg/revision/latest/scale-to-width-down/535?cb=20130814024215&path-prefix=pt-br",
+          "https://static.wikia.nocookie.net/dragonball/images/5/5c/New_Planet_Vegeta.jpg",
         nivelPoder: "Alto",
       },
     }),
@@ -115,7 +115,7 @@ async function main() {
         descricao:
           "Planeta Beerus é o lar do Deus da Destruição Beerus e o Anjo Whis.",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/f/f8/BeerusPlanetDBSEp30001.png/revision/latest/scale-to-width-down/250?cb=20201018222203&path-prefix=pt-br",
+          "https://static.wikia.nocookie.net/dragonball/images/f/f8/BeerusPlanetDBSEp30001.png",
         nivelPoder: "Extremamente alto",
       },
     }),
@@ -125,7 +125,7 @@ async function main() {
         descricao:
           "O Planeta do Grande Kaioh  é o lar de Grande Kaioh, o rei das galáxias. Foi introduzido na saga Majin Boo em Dragon Ball Z.",
         imageUrl: 
-          "https://static.wikia.nocookie.net/dragonball/images/a/a3/GrandKaisPlanet.png/revision/latest/scale-to-width-down/230?cb=20150204202704&path-prefix=pt-br",
+          "https://static.wikia.nocookie.net/dragonball/images/a/a3/GrandKaisPlanet.png",
         nivelPoder: "Médio-alto",
       },
     }),
@@ -135,7 +135,7 @@ async function main() {
         descricao:
           "Planeta Litt é o planeta que Vegeta foi enquanto buscava Goku.",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/e/ed/PlanetLitt1.png/revision/latest/scale-to-width-down/220?cb=20150218174547&path-prefix=pt-br",
+          "https://static.wikia.nocookie.net/dragonball/images/e/ed/PlanetLitt1.png",
         nivelPoder: "Baixo",
       },
     }),
@@ -145,7 +145,7 @@ async function main() {
         descricao:
           "Planeta Yardrat é o lar dos Yardrats. Goku cai nesse planeta após sua batalha com Freeza em Namekusei.",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/b/b1/PlanetYardrat.png/revision/latest/scale-to-width-down/300?cb=20150211172658&path-prefix=pt-br",
+          "https://static.wikia.nocookie.net/dragonball/images/b/b1/PlanetYardrat.png",
         nivelPoder: "Médio",
       },
     }),
@@ -155,7 +155,7 @@ async function main() {
         descricao:
           "Planeta Kaishin  é o planeta natal original dos Glinds. É localizado no Segundo Reino dos Demônios.",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/f/f0/SacredWorldoftheKais.png/revision/latest?cb=20150226223702&path-prefix=pt-br",
+          "https://static.wikia.nocookie.net/dragonball/images/f/f0/SacredWorldoftheKais.png",
         nivelPoder: "Alto",
       },
     }),
@@ -165,7 +165,7 @@ async function main() {
         descricao:
          "Planeta com todos os personagens que não possuem um planeta de origem conhecido.",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/8/89/Unknown_Planet.png/revision/latest?cb=20130814023349&path-prefix=pt-br",
+          "https://i.ibb.co/qL9sSswB/Sem-nome-1080-x-1080-px.png",
         nivelPoder: "Desconhecido",
       },
     }),
@@ -366,10 +366,11 @@ prisma.raca.create({
       data: {
         name: "Andróide 13",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/c/c1/Android13-.png/revision/latest?cb=20141230181645&path-prefix=pt-br",
+          "https://i.pinimg.com/736x/41/a2/0b/41a20b88486ae7653558d3a23e6c58ea.jpg",
         ki: "1 milhão",
         planetaId: 1,
         racaId: 1,
+        racaName: "TESTE",
         tecnicasEspeciais: "Absorção de energia, energia ilimitada",
         transformacoes: "Sim (Fusão com os outros androides)",
         sagas: "Saga dos Androides, Saga de Cell",
@@ -381,10 +382,11 @@ prisma.raca.create({
       data: {
         name: "Andróide 14",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/3/3a/DBZ_-_Android_14.jpg/revision/latest/scale-to-width-down/535?cb=20140929173907&path-prefix=pt-br",
+          "https://i.pinimg.com/1200x/b8/df/f8/b8dff8174374c6e18588249c57170571.jpg",
         ki: "900 mil",
         planetaId: 1,
         racaId: 1,
+        racaName: "TESTE",
         tecnicasEspeciais: "Energia ilimitada, força sobre-humana",
         transformacoes: "Não",
         sagas: "Saga dos Androides, Saga de Cell",
@@ -396,10 +398,11 @@ prisma.raca.create({
       data: {
         name: "Andróide 15",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/8/82/Android15SA13.png/revision/latest?cb=20141228193109&path-prefix=pt-br",
+          "https://i.pinimg.com/736x/06/b2/08/06b208aaed4159a7f6fe14d72e9c77fd.jpg",
         ki: "950 mil",
         planetaId: 1,
         racaId: 1,
+        racaName: "TESTE",
         tecnicasEspeciais: "Energia ilimitada, força sobre-humana",
         transformacoes: "Não",
         sagas: "Saga dos Androides, Saga de Cell",
@@ -411,10 +414,11 @@ prisma.raca.create({
       data: {
         name: "Andróide 16",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/3/3e/Android16GokusAssasinK-1-.png/revision/latest?cb=20150124164210&path-prefix=pt-br",
+          "https://i.pinimg.com/736x/5c/b1/b0/5cb1b0137405c88154695e6a25a55af9.jpg",
         ki: "1.2 milhão",
         planetaId: 1,
         racaId: 1,
+        racaName: "TESTE",
         tecnicasEspeciais:
           "Energia ilimitada, força sobre-humana, auto-destruição",
         transformacoes: "Não",
@@ -427,10 +431,11 @@ prisma.raca.create({
       data: {
         name: "Andróide 17",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/0/01/Androide_17NV.png/revision/latest?cb=20171001042843&path-prefix=pt-br",
+          "https://i.pinimg.com/1200x/4f/eb/83/4feb83da1118ab2785b3c4d985cfa5ee.jpg",
         ki: "1.5 milhão",
         planetaId: 1,
         racaId: 1,
+        racaName: "TESTE",
         tecnicasEspeciais:
           "Energia ilimitada, força sobre-humana, barreira de energia",
         transformacoes: "Sim (Fusão com Andróide 18)",
@@ -443,10 +448,11 @@ prisma.raca.create({
       data: {
         name: "Andróide 18",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/b/b7/Android18ImperfectCellSagaNV.png/revision/latest?cb=20141227015455&path-prefix=pt-br",
+          "https://i.pinimg.com/736x/20/55/c3/2055c3287b1e0f4a5f9c66a801454e70.jpg",
         ki: "1.5 milhão",
         planetaId: 1,
         racaId: 1,
+        racaName: "TESTE",
         tecnicasEspeciais:
           "Energia ilimitada, força sobre-humana, barreira de energia",
         transformacoes: "Sim (Fusão com Andróide 17)",
@@ -459,10 +465,11 @@ prisma.raca.create({
     prisma.personagem.create({
       data: {
         name: "Andróide 19",
-        imageUrl: "https://static.wikia.nocookie.net/dragonball/images/0/0d/Android19FBNV.png/revision/latest?cb=20140408201553&path-prefix=pt-br",
+        imageUrl: "https://i.pinimg.com/1200x/47/bc/fe/47bcfe59d27c7482a1299f64ccf97590.jpg",
         ki: "800 mil",
         planetaId: 1,
         racaId: 1,
+        racaName: "TESTE",
         tecnicasEspeciais: "Absorção de energia, energia ilimitada",
         transformacoes: "Não",
         sagas: "Saga dos Androides",
@@ -477,6 +484,7 @@ prisma.raca.create({
         ki: "800 mil",
         planetaId: 1,
         racaId: 1,
+        racaName: "TESTE",
         tecnicasEspeciais: "Absorção de energia, energia ilimitada",
         transformacoes: "Não",
         sagas: "Saga dos Androides",
@@ -488,10 +496,11 @@ prisma.raca.create({
       data: {
         name: "Anunciador do Torneio",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/d/d4/Announcer.png/revision/latest/scale-to-width-down/536?cb=20150309170532&path-prefix=pt-br",
+          "https://i.pinimg.com/736x/f1/35/0e/f1350e8fbc09bfb319deb15462c5906f.jpg",
         ki: "Desconhecido",
         planetaId: 1,
         racaId: 1,
+        racaName: "TESTE",
         tecnicasEspeciais: "Desconhecido",
         transformacoes: "Não",
         sagas: "Picollo, Saga Majin Boo",
@@ -503,10 +512,11 @@ prisma.raca.create({
       data: {
         name: "Bardock",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/d/d2/BardockFatherOfGokuNVk1.png/revision/latest?cb=20130815180226&path-prefix=pt-br",
+          "https://i.pinimg.com/1200x/1f/f0/27/1ff0276e692402bcbe4906117a79b954.jpg",
         ki: "800 mil",
         planetaId: 3,
         racaId: 7,
+        racaName: "TESTE",
         tecnicasEspeciais: "Espírito Saiyajin, Explosão de Ki",
         transformacoes: "Sim (Super Saiyajin)",
         sagas: "Especial Bardock - O Pai de Goku, Dragon Ball Super: Broly",
@@ -518,10 +528,11 @@ prisma.raca.create({
       data: {
         name: "Beerus",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/b/b9/Bills.png/revision/latest?cb=20171004050904&path-prefix=pt-br",
+          "https://i.pinimg.com/1200x/c4/c6/e1/c4c6e175abd9fcba375d895fe87aaa61.jpg",
         ki: "Desconhecido",
         planetaId: 11,
         racaId: 13,
+        racaName: "TESTE",
         tecnicasEspeciais:
           "Hakai (Destruição), Velocidade Divina, Força Sobre-humana",
         transformacoes: "Não",
@@ -535,10 +546,11 @@ prisma.raca.create({
       data: {
         name: "Bojack",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/2/23/BojacksTeam9.jpg/revision/latest?cb=20150304180150&path-prefix=pt-br",
+          "https://i.pinimg.com/1200x/55/c4/97/55c4976a299c3091af78623888ec1c4f.jpg",
         ki: "1.2 milhão",
         planetaId: 7,
         racaId: 8,
+        racaName: "TESTE",
         tecnicasEspeciais:
           "Força Sobre-humana, Habilidades de Combate Avançadas",
         transformacoes: "Sim (Forma Final)",
@@ -551,10 +563,11 @@ prisma.raca.create({
       data: {
         name: "Booter",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/e/e8/BurterPosing.png/revision/latest/scale-to-width-down/180?cb=20150107194308&path-prefix=pt-br",
+          "https://i.pinimg.com/736x/d6/e4/3a/d6e43a0ccb5de89910d5d94c2f598506.jpg",
         ki: "100 mil",
         planetaId: 16,
         racaId: 13,
+        racaName: "TESTE",
         tecnicasEspeciais: "Velocidade Extrema, Força Sobre-humana",
         transformacoes: "Não",
         sagas: "Saga Freeza",
@@ -566,10 +579,11 @@ prisma.raca.create({
       data: {
         name: "Broly",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/d/d9/Broly_infobox.png/revision/latest/scale-to-width-down/536?cb=20150102195827&path-prefix=pt-br",
+          "https://i.pinimg.com/736x/1a/89/a1/1a89a1569971fce5ffa1173db6df8448.jpg",
         ki: "10 milhões",
         planetaId: 3,
         racaId: 7,
+        racaName: "TESTE",
         tecnicasEspeciais:
           "Transformação em Super Saiyajin Lendário, Força Sobre-humana",
         transformacoes: "Sim (Super Saiyajin Lendário)",
@@ -582,10 +596,11 @@ prisma.raca.create({
       data: {
         name: "Bulma",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/d/d9/Broly_infobox.png/revision/latest/scale-to-width-down/536?cb=20150102195827&path-prefix=pt-br",
+          "https://i.pinimg.com/736x/e5/38/29/e53829b8d0addb4674de1a4bd8571096.jpg",
         ki: "Desconhecido",
         planetaId: 1,
         racaId: 2,
+        racaName: "TESTE",
         tecnicasEspeciais: "Gênio Inventora, Habilidades Técnicas Avançadas",
         transformacoes: "Não",
         sagas: "Todas as sagas",
@@ -597,10 +612,11 @@ prisma.raca.create({
       data: {
         name: "Capitão Ginyu",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/2/28/CaptainGinyuVsGoku.png/revision/latest?cb=20150126234340&path-prefix=pt-br",
+          "https://i.pinimg.com/1200x/f0/54/d5/f054d57efdb5a90d13505f41113dc969.jpg",
         ki: "400 mil",
         planetaId: 16,
         racaId: 13,
+        racaName: "TESTE",
         tecnicasEspeciais: "Troca de Corpos, Força Sobre-humana",
         transformacoes: "Não",
         sagas: "Saga Freeza",
@@ -612,10 +628,11 @@ prisma.raca.create({
       data: {
         name: "Cell",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/0/0d/CellPerfectNVVsGoku.png/revision/latest?cb=20130813195410&path-prefix=pt-br",
+          "https://i.pinimg.com/1200x/bc/ca/8a/bcca8a039018031b51ec783601c247d3.jpg",
         ki: "2 milhões",
         planetaId: 1,
         racaId: 1,
+        racaName: "TESTE",
         tecnicasEspeciais: "Absorção de energia, regeneração, Kamehameha",
         transformacoes: "Sim (Forma Perfeita)",
         sagas: "Saga de Cell",
@@ -627,10 +644,11 @@ prisma.raca.create({
       data: {
         name: "Cell Jr.",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/6/6f/Cell_Juniores.jpg/revision/latest/scale-to-width-down/536?cb=20170617022410&path-prefix=pt-br",
+          "https://i.pinimg.com/1200x/aa/83/6c/aa836c2a969f3ae8cd4bf5d8234ded46.jpg",
         ki: "1.5 milhão",
         planetaId: 1,
         racaId: 1,
+        racaName: "TESTE",
         tecnicasEspeciais:
           "Força Sobre-humana, Habilidades de Combate Avançadas",
         transformacoes: "Não",
@@ -643,10 +661,11 @@ prisma.raca.create({
       data: {
         name: "Caos",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/8/8f/Chaos.png/revision/latest/scale-to-width-down/536?cb=20150101214936&path-prefix=pt-br",
+          "https://i.pinimg.com/1200x/30/26/ba/3026ba746785490d319d6aabbc56d61f.jpg",
         ki: "Desconhecido",
         planetaId: 1,
         racaId: 2,
+        racaName: "TESTE",
         tecnicasEspeciais: "Auto-destruição, manipulação de energia",
         transformacoes: "Não",
         sagas: "Saga Sayajins",
@@ -658,10 +677,11 @@ prisma.raca.create({
       data: {
         name: "Chi-Chi",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/0/05/ShonenChiChi.png/revision/latest?cb=20140924181318&path-prefix=pt-br",
+          "https://i.pinimg.com/1200x/ba/bf/ca/babfcafa54cdd1c3d2b8db42a379eb7f.jpg",
         ki: "Desconhecido",
         planetaId: 1,
         racaId: 2,
+        racaName: "TESTE",
         tecnicasEspeciais: "Habilidades de Combate Básicas",
         transformacoes: "Não",
         sagas: "Todas as sagas",
@@ -673,10 +693,11 @@ prisma.raca.create({
       data: {
         name: "Coola",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/9/9a/KOLLAR.png/revision/latest?cb=20140508015445&path-prefix=pt-br",
+          "https://i.pinimg.com/736x/73/28/7e/73287e9143f3ccf70736971740cf4510.jpg",
         ki: "1.1 milhão",
         planetaId: 5,
         racaId: 6,
+        racaName: "TESTE",
         tecnicasEspeciais: "Transformações, Força Sobre-humana",
         transformacoes: "Sim (Várias formas)",
         sagas: "Dragon Ball Z: O Retorno de Cooler",
@@ -692,6 +713,7 @@ prisma.raca.create({
         ki: "1 milhão",
         planetaId: 5,
         racaId: 6,
+        racaName: "TESTE",
         tecnicasEspeciais: "Transformações, Death Beam, Supernova",
         transformacoes: "Sim (Várias formas)",
         sagas: "Saga Freeza, Saga Trunks do Futuro, Saga do Torneio do Poder",
@@ -703,10 +725,11 @@ prisma.raca.create({
       data: {
         name: "Gine",
         imageUrl:
-          "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/63c96660-93f3-5314-99aa-f2d599f894ba/eddacbbf-030d-5f73-809b-72846a8be24f.jpg",
+          "https://i.pinimg.com/1200x/22/66/14/2266140c73939458f482a63dbd2abe80.jpg",
         ki: "Desconhecido",
         planetaId: 3,
         racaId: 7,
+        racaName: "TESTE",
         tecnicasEspeciais: "Habilidades de Combate Básicas",
         transformacoes: "Não",
         sagas: "Dragon Ball Z bardock - O Pai de Goku",
@@ -718,10 +741,11 @@ prisma.raca.create({
       data: {
         name: "Gogeta",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/d/dd/GogetaFusionRebornDVD.png/revision/latest/scale-to-width-down/536?cb=20130814184842&path-prefix=pt-br",
+          "https://i.pinimg.com/1200x/91/0c/05/910c058921563c531655c74f45403634.jpg",
         ki: "10 milhões",
         planetaId: 3,
         racaId: 7,
+        racaName: "TESTE",
         tecnicasEspeciais: "Fusão, Kamehameha, Big Bang Kamehameha",
         transformacoes: "Sim (Super Saiyajin, Super Saiyajin Blue)",
         sagas: "Dragon Ball Z: O Retorno de Broly, Dragon Ball Super: Broly",
@@ -737,6 +761,7 @@ prisma.raca.create({
         ki: "1 Bilhão",
         planetaId: 1,
         racaId: 7,
+        racaName: "TESTE",
         tecnicasEspeciais: "Masenko, Kamehameha,",
         transformacoes: "Sim (Super Saiyajin, Potencial Liberado)",
         sagas: "Todas as sagas",
@@ -752,6 +777,7 @@ prisma.raca.create({
         ki: "3 milhões",
         planetaId: 1,
         racaId: 7,
+        racaName: "TESTE",
         tecnicasEspeciais: "Fusão, Super Ghost Kamikaze Attack",
         transformacoes: "Sim (Super Saiyajin, Super Saiyajin 3)",
         sagas: "Saga Majin Boo",
@@ -763,10 +789,11 @@ prisma.raca.create({
       data: {
         name: "Goku",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/0/08/Tapion_and_minotia.jpg/revision/latest/scale-to-width-down/180?cb=20150128163925&path-prefix=pt-br",
+          "https://i.pinimg.com/736x/5a/96/70/5a9670429d9a765d69bd00fd94ce69f2.jpg",
         ki: "50 Bilhões",
         planetaId: 3,
         racaId: 7,
+        racaName: "TESTE",
         tecnicasEspeciais: "Kamehameha, Genki Dama, Teletransporte",
         transformacoes:
           "Sim (Ozaru, Super Saiyajin, Super Saiyajin Red, Super Saiyajin Blue, Ultra Instinto)",
@@ -783,6 +810,7 @@ prisma.raca.create({
         ki: "1 milhão",
         planetaId: 1,
         racaId: 7,
+        racaName: "TESTE",
         tecnicasEspeciais: "Kamehameha, Super Saiyajin",
         transformacoes: "Sim (Super Saiyajin, Fusão com Trunks)",
         sagas: "Saga Majin Boo",
@@ -794,10 +822,11 @@ prisma.raca.create({
       data: {
         name: "Gurdo",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/c/cb/GULDO.jpg/revision/latest?cb=20150208221349&path-prefix=pt-br",
+          "https://i.pinimg.com/736x/08/7a/9f/087a9f6f9b7df2f8bc45966c076b1086.jpg",
         ki: "80 mil",
         planetaId: 16,
         racaId: 13,
+        racaName: "TESTE",
         tecnicasEspeciais: "Manipulação do Tempo, Força Sobre-humana",
         transformacoes: "Não",
         sagas: "Saga Freeza",
@@ -809,10 +838,11 @@ prisma.raca.create({
       data: {
         name: "Kaioh do Norte",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/6/61/KingKaiNV.png/revision/latest/scale-to-width-down/536?cb=20141226190332&path-prefix=pt-br",
+          "https://i.pinimg.com/736x/40/c4/8b/40c48bcd436c76e7ce256e7d19849612.jpg",
         ki: "Desconhecido",
         planetaId: 4,
         racaId: 3,
+        racaName: "TESTE",
         tecnicasEspeciais: "Teletransporte, Treinamento de Artes Marciais",
         transformacoes: "Não",
         sagas: "Saga Sayajins, Saga Freeza, Saga de Cell, Saga Majin Boo",
@@ -824,10 +854,11 @@ prisma.raca.create({
       data: {
         name: "Dende",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/b/bb/Oie_0RmmLLrcEzgS.png/revision/latest/scale-to-width-down/535?cb=20250226150813&path-prefix=pt-br",
+          "https://i.pinimg.com/736x/a7/61/e7/a761e7df336e8376585d99f3ed0fdf68.jpg",
         ki: "Desconhecido",
         planetaId: 2,
         racaId: 5,
+        racaName: "TESTE",
         tecnicasEspeciais: "Regeneração, Criação de Esferas do Dragão",
         transformacoes: "Não",
         sagas: "Saga Freeza, Saga de Cell, Saga Majin Boo, Dragon Ball Super",
@@ -839,10 +870,11 @@ prisma.raca.create({
       data: {
         name: "Kuririn",
         imageUrl:
-          "https://i.pinimg.com/736x/a8/68/80/a86880e13c4c1152107aa75dbba2d6cf.jpg",
+          "https://i.pinimg.com/1200x/be/75/3d/be753ddf480aad170096d3aaaebe91ed.jpg",
         ki: "200 mil",
         planetaId: 1,
         racaId: 2,
+        racaName: "TESTE",
         tecnicasEspeciais: "Kamehameha, Kienzan",
         transformacoes: "Não",
         sagas: "Todas as sagas",
@@ -858,6 +890,7 @@ prisma.raca.create({
         ki: "3 bilhões",
         planetaId: 1,
         racaId: 4,
+        racaName: "TESTE",
         tecnicasEspeciais: "Regeneração, Transformações, Kamehameha",
         transformacoes: "Sim (Várias formas)",
         sagas: "Saga Majin Boo",
@@ -873,6 +906,7 @@ prisma.raca.create({
         ki: "3 bilhões",
         planetaId: 1,
         racaId: 4,
+        racaName: "TESTE",
         tecnicasEspeciais: "Regeneração, Transformações, Kamehameha", 
         transformacoes: "Sim (Várias formas)",
         sagas: "Saga Majin Boo",
@@ -888,6 +922,7 @@ prisma.raca.create({
         ki: "4 bilhões",
         planetaId: 1,
         racaId: 4,
+        racaName: "TESTE",
         tecnicasEspeciais: "Regeneração, Transformações, Kamehameha",
         transformacoes: "Não",
         sagas: "Saga Majin Boo",
@@ -903,6 +938,7 @@ prisma.raca.create({
         ki: "Desconhecido",
         planetaId: 1,
         racaId: 2,
+        racaName: "TESTE",
         tecnicasEspeciais: "Kamehameha, Mafuba",
         transformacoes: "Não",
         sagas: "Todas as sagas",
@@ -914,10 +950,11 @@ prisma.raca.create({
       data: {
         name: "Metal Cooler",
         imageUrl:
-          "https://i.pinimg.com/1200x/39/c3/02/39c302b57f62542134bcc0acdab38e69.jpg",
+          "https://i.pinimg.com/1200x/21/4a/d1/214ad178541c4a8b9e951713c34a7b1c.jpg",
         ki: "2 milhões",
         planetaId: 5,
         racaId: 8,
+        racaName: "TESTE",
         tecnicasEspeciais: "Transformações, Força Sobre-humana",
         transformacoes: "Sim (Forma Metálica)",
         sagas: "Dragon Ball Z: O Retorno de Cooler",
@@ -929,10 +966,11 @@ prisma.raca.create({
       data: {
         name: "Nappa",
         imageUrl:
-          "https://i.pinimg.com/736x/0a/00/2e/0a002e97f7f58530021491c790025a3a.jpg",
+          "https://i.pinimg.com/736x/4a/50/af/4a50aff61f0705ad7c72e4063fe95c8c.jpg",
         ki: "10 mil",
         planetaId: 3,
         racaId: 7,
+        racaName: "TESTE",
         tecnicasEspeciais:
           "Força Sobre-humana, Habilidades de Combate Avançadas",
         transformacoes: "Não",
@@ -945,10 +983,11 @@ prisma.raca.create({
       data: {
         name: "Piccolo",
         imageUrl:
-          "https://i.pinimg.com/736x/0a/00/2e/0a002e97f7f58530021491c790025a3a.jpg",
+          "https://i.pinimg.com/1200x/18/aa/e1/18aae14aa27cc39bc60856fbff0ca6c3.jpg",
         ki: "800 milhões",
         planetaId: 2,
         racaId: 5,
+        racaName: "TESTE",
         tecnicasEspeciais: "Makankosappo, Regeneração, Fusão",
         transformacoes: "Sim (Fusão com Kami e Nail)",
         sagas: "Todas as sagas",
@@ -960,10 +999,11 @@ prisma.raca.create({
       data: {
         name: "Raditz",
         imageUrl:
-          "https://i.pinimg.com/736x/f2/1e/ca/f21eca7c956c66997a8b156bb54dd8be.jpg",
+          "https://i.pinimg.com/736x/71/8d/51/718d5139ed98c01f9877a2d6d938cbd1.jpg",
         ki: "1 mil",
         planetaId: 3,
         racaId: 7,
+        racaName: "TESTE",
         tecnicasEspeciais:
           "Força Sobre-humana, Habilidades de Combate Avançadas",
         transformacoes: "Não",
@@ -980,6 +1020,7 @@ prisma.raca.create({
         ki: "Desconhecido",
         planetaId: 3,
         racaId: 7,
+        racaName: "TESTE",
         tecnicasEspeciais: "Habilidades de Combate Avançadas",
         transformacoes: "Não",
         sagas: "Saga Freeza",
@@ -991,10 +1032,11 @@ prisma.raca.create({
       data: {
         name: "Rikum",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/8/8a/RecoomeTGFP.png/revision/latest/scale-to-width-down/535?cb=20150206190744&path-prefix=pt-br",
+          "https://i.pinimg.com/736x/d1/ab/ef/d1abef8146641891a40351414f27aff7.jpg",
         ki: "300 mil",
         planetaId: 16,
         racaId: 13,
+        racaName: "TESTE",
         tecnicasEspeciais:
           "Força Sobre-humana, Habilidades de Combate Avançadas",
         transformacoes: "Não",
@@ -1007,10 +1049,11 @@ prisma.raca.create({
       data: {
         name: "Sr. Popo",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/9/98/Mrpopo.png/revision/latest/scale-to-width-down/536?cb=20150209202341&path-prefix=pt-br",
+          "https://i.pinimg.com/736x/f7/c1/56/f7c15630ea8dafb033331627b44fa7c8.jpg",
         ki: "Desconhecido",
         planetaId: 1,
         racaId: 2,
+        racaName: "TESTE",
         tecnicasEspeciais:
           "Habilidades de Combate Básicas, Assistência ao Kami",
         transformacoes: "Não",
@@ -1028,6 +1071,7 @@ prisma.raca.create({
         ki: "3.5 milhões",
         planetaId: 9,
         racaId: 9,
+        racaName: "TESTE",
         tecnicasEspeciais:
           "Força Sobre-humana, Habilidades de Combate Avançadas, Uso de Espada",
         transformacoes: "Não",
@@ -1044,6 +1088,7 @@ prisma.raca.create({
         ki: "180 mil",
         planetaId: 1,
         racaId: 2,
+        racaName: "TESTE",
         tecnicasEspeciais: "Kikoho, Dodonpa, Shiyoken",
         transformacoes: "Não",
         sagas: "Todas as sagas",
@@ -1059,6 +1104,7 @@ prisma.raca.create({
         ki: "1 milhão",
         planetaId: 1,
         racaId: 7,
+        racaName: "TESTE",
         tecnicasEspeciais: "Fusão",
         transformacoes: "Sim (Super Saiyajin, Fusão com Goten)",
         sagas: "Saga Majin Boo",
@@ -1074,6 +1120,7 @@ prisma.raca.create({
         ki: "2 milhões",
         planetaId: 1,
         racaId: 7,
+        racaName: "TESTE",
         tecnicasEspeciais:
           "Galick-ho, Habilidades de Combate Avançadas, Uso de Espada",
         transformacoes: "Sim (Super Saiyajin)",
@@ -1090,6 +1137,7 @@ prisma.raca.create({
         ki: "49 bilhões",
         planetaId: 3,
         racaId: 7,
+        racaName: "TESTE",
         tecnicasEspeciais: "Galick-ho, Final Flash, Big Bang Attack",
         transformacoes:
           "Sim (Ozaru, Super Saiyajin, Super Saiyajin Red, Super Saiyajin Blue)",
@@ -1102,10 +1150,11 @@ prisma.raca.create({
       data: {
         name: "Velho Kaioshin",
         imageUrl:
-          "https://static.wikia.nocookie.net/dragonball/images/a/a3/OldKaiNV.png/revision/latest/scale-to-width-down/536?cb=20150112215920&path-prefix=pt-br",
+          "https://i.pinimg.com/1200x/af/13/41/af134185b1c39ad249645c0e46a5f817.jpg",
         ki: "Desconhecido",
         planetaId: 15,
         racaId: 3,
+        racaName: "TESTE",
         tecnicasEspeciais: "Teletransporte, Treinamento de Artes Marciais",
         transformacoes: "Não",
         sagas: "Saga Majin Boo, Dragon Ball Super",
@@ -1121,6 +1170,7 @@ prisma.raca.create({
         ki: "Desconhecido",
         planetaId: 1,
         racaId: 2,
+        racaName: "TESTE",
         tecnicasEspeciais: "Habilidades de Combate Básicas, Voo",
         transformacoes: "Não",
         sagas: "Saga Majin Boo, Dragon Ball Super",
@@ -1136,6 +1186,7 @@ prisma.raca.create({
         ki: "Desconhecido",
         planetaId: 1,
         racaId: 2,
+        racaName: "TESTE",
         tecnicasEspeciais: "Habilidades de Combate Básicas",
         transformacoes: "Não",
         sagas: "Saga Majin Boo, Dragon Ball Super",
@@ -1151,6 +1202,7 @@ prisma.raca.create({
         ki: "Desconhecido",
         planetaId: 11,
         racaId: 13,
+        racaName: "TESTE",
         tecnicasEspeciais:
           "Manipulação do Tempo, Habilidades de Combate Avançadas",
         transformacoes: "Não",
@@ -1167,6 +1219,7 @@ prisma.raca.create({
         ki: "80 mil",
         planetaId: 1,
         racaId: 2,
+        racaName: "TESTE",
         tecnicasEspeciais: "Kamehameha, Roubo de Energia",
         transformacoes: "Não",
         sagas: "Todas as sagas",
@@ -1182,6 +1235,7 @@ prisma.raca.create({
         ki: "100 mil",
         planetaId: 16,
         racaId: 13,
+        racaName: "TESTE",
         tecnicasEspeciais: "Transformações, Força Sobre-humana",
         transformacoes: "Sim (Forma Monstruosa)",
         sagas: "Saga Freeza",

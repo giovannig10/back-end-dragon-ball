@@ -41,9 +41,3 @@ CREATE TABLE "personagens" (
     CONSTRAINT "personagens_racaId_fkey" FOREIGN KEY ("racaId") REFERENCES "racas" ("id") ON DELETE RESTRICT ON UPDATE CASCADE,
     CONSTRAINT "personagens_planetaId_fkey" FOREIGN KEY ("planetaId") REFERENCES "planetas" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
 );
-
--- CreateIndex
-CREATE UNIQUE INDEX "racas_name_key" ON "racas"("name");
-
--- CreateIndex
-CREATE UNIQUE INDEX "planetas_name_key" ON "planetas"("name");
