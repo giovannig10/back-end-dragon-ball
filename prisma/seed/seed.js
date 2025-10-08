@@ -65,7 +65,7 @@ async function main() {
         descricao:
           "Planeta dos Arlianos, insectoides, destruído por Vegeta.",
         imageUrl:
-          "https://i.ibb.co/YBq6KBkY/download.jpg",
+          "https://i.ibb.co/jPZNbYw1/planeta-airla.png",
         nivelPoder: "Baixo",
       },
     }),
@@ -85,7 +85,7 @@ async function main() {
         descricao:
           "A Estrela Gete é um grande planeta-monstro que eventualmente absorveu os restos de Coola, que permitiu que ele controlasse a estrela em Dragon Ball Z: O Retorno de Coola.",
         imageUrl:
-          "https://i.ibb.co/chr05yNQ/Screenshotsdbzmovie6-017.webp",
+          "https://i.ibb.co/w1cWGSk/estrela-gete.png",
         nivelPoder: "Infinito",
       },
     }),
@@ -165,7 +165,7 @@ async function main() {
         descricao:
          "Planeta com todos os personagens que não possuem um planeta de origem conhecido.",
         imageUrl:
-          "https://i.ibb.co/qL9sSswB/Sem-nome-1080-x-1080-px.png",
+          "https://i.ibb.co/21fTVj3P/planeta-desconhecido.png",
         nivelPoder: "Desconhecido",
       },
     }),
@@ -178,13 +178,13 @@ prisma.raca.create({
       descricao:
         "Andróides são Terráqueos cyborgs/robóticos, a maioria criados pelo cientista Dr. Gero. É dito que maioria dos androides têm energia ilimitada e vida eterna. Devido à sua natureza inorgânica, eles também não tem aura (ao contrário de Saiyajins, Terráqueos, e outros), então eles não podem ser rastreados usando rastreadores ou pelo Ki.",
       imageUrl: 
-        "https://static.wikia.nocookie.net/dragonball/images/1/10/Androids.jpeg/revision/latest?cb=20141228144731&path-prefix=pt-br",
+        "https://i.pinimg.com/1200x/14/ad/65/14ad65d0ed4c68d2c9554bcc5b910b57.jpg",
       caracteristicas:
         "Possuem energia ilimitada, vida eterna, não possuem aura",
       habilidadesEspeciais:
         "Resistência maior a danos, força sobre-humana, indetectáveis por rastreadores de Ki e energia ilimitada",
       nivelPoderMedio: "Extremamente alto",
-      planetaId: 1,
+      planetaId: 16,
     },
   }),
   prisma.raca.create({
@@ -193,12 +193,12 @@ prisma.raca.create({
       descricao:
         "Terráqueos são os principais habitantes do planeta Terra em Dragon Ball.",
       imageUrl:
-        "https://static.wikia.nocookie.net/dragonball/images/d/d8/SatanFan%28Jmp%29.png/revision/latest/scale-to-width-down/300?cb=20130815170824&path-prefix=pt-br",
+        "https://static.wikia.nocookie.net/dragonball/images/d/d8/SatanFan%28Jmp%29.png",
       caracteristicas:
         "Menos poderosos comparados a maioria e grande diversidade.",
       habilidadesEspeciais: "Extremamente variado, dependendo do indivíduo",
       nivelPoderMedio: "Baixo",
-      planetaId: 1,
+      planetaId: 16,
     },
   }),
   prisma.raca.create({
@@ -207,13 +207,13 @@ prisma.raca.create({
       descricao:
         "Os Glinds são a raça da qual os Kaiohshins fazem parte, e são originários do Segundo Reino dos Demônios antes de saírem e se mudarem para outros universos.",
       imageUrl:
-        "https://static.wikia.nocookie.net/dragonball/images/7/7f/Glinds.png/revision/latest/scale-to-width-down/350?cb=20241115221012&path-prefix=pt-br",
+        "https://i.pinimg.com/1200x/92/5f/85/925f85fa4568bc365ad52c08a8a929d2.jpg",
       caracteristicas:
         "Humanoides com orelhas pontudas, pele de cores incomuns (verde, azul, roxo), aliados do bem e seres com poderes espirituais",
       habilidadesEspeciais:
         "Poderes espirituais e imortalidade (não envelhecem)",
       nivelPoderMedio: "Alto",
-      planetaId: 15,
+      planetaId: 9,
     },
   }),
   prisma.raca.create({
@@ -222,13 +222,13 @@ prisma.raca.create({
       descricao:
         "Majin é uma raça que estreia com Majin Boo na saga Majin Boo em Dragon Ball Z. São seres magicos com habilidades únicas e poderes incríveis.",
       imageUrl:
-        "https://static.wikia.nocookie.net/dragonball/images/e/ee/DjinnDBOWallpaper.png/revision/latest/scale-to-width-down/300?cb=20130825165446&path-prefix=pt-br",
+        "https://static.wikia.nocookie.net/dragonball/images/e/ee/DjinnDBOWallpaper.png",
       caracteristicas:
         "Possuem corpos maleáveis e flexíveis, podem tranfoormar objetos e pessoas em doces, são feitos de magias e sua pele é semelhante a um chiclete rosa",
       habilidadesEspeciais:
         "Regeneração total de seu corpo, transformações de coisas e seres em doces, poder de cura e poder de absorção",
       nivelPoderMedio: "Extremamente alto",
-      planetaId: 15,
+      planetaId: 9,
     },
   }),
   prisma.raca.create({
@@ -237,13 +237,13 @@ prisma.raca.create({
       descricao:
         "Namekuseijins  são uma raça originária do Reino dos Demônios. Eles existem tanto no Universo 6 quanto no Universo 7, habitando o planeta Namekusei nesses universos, tendo se mudado do Reino dos Demônios para lá há muito tempo. Eles estão entre as raças mais importantes da série, pois eles são os criadores das Esferas do Dragão.",
       imageUrl:
-        "https://static.wikia.nocookie.net/dragonball/images/f/f1/Namekians03.png/revision/latest/scale-to-width-down/300?cb=20150104110503&path-prefix=pt-br",
+        "https://static.wikia.nocookie.net/dragonball/images/f/f1/Namekians03.png",
       caracteristicas:
         "Humanoides de pele verde, antenas na cabeça, com alta expectativa de vida",
       habilidadesEspeciais:
         "Regeneração, poderes mágicos, podem criar Esferas do Dragão e podem se multiplicar",
       nivelPoderMedio: "Médio-alto",
-      planetaId: 2,
+      planetaId: 15,
     },
   }),
   prisma.raca.create({
@@ -252,12 +252,12 @@ prisma.raca.create({
     descricao:
       "Raça do Freeza é a misteriosa raça sem nome que Freeza, Rei Cold, Coola, Kuriza, Chilled, e Frost pertencem. A raça é introduzida na série na saga Namekusei de Dragon Ball Z.",
     imageUrl:
-      "https://static.wikia.nocookie.net/dragonball/images/6/6a/KingColdandFreezainHell.png/revision/latest/scale-to-width-down/300?cb=20150217141835&path-prefix=pt-br",
+      "https://static.wikia.nocookie.net/dragonball/images/6/6a/KingColdandFreezainHell.png",
     caracteristicas: "Humanoides com cauda, pele de cores incomeuns",
     habilidadesEspeciais:
       "Transformações que elevam seu poder de luta e podem sobreviver no espaço",
     nivelPoderMedio: "Extremamente alto",
-    planetaId: 5,
+    planetaId: 13,
   },
   }),
   prisma.raca.create({
@@ -266,13 +266,13 @@ prisma.raca.create({
       descricao:
         "Os Saiyajins  são uma raça guerreira que foi quase toda extinta por Freeza antes do começo da série Dragon Ball. Eles têm um papel central em Dragon Ball Z, Dragon Ball GT, e Dragon Ball Super após ser revelado que o protagonista Goku é na verdade um Saiyajin que foi mandado para destruir a Terra.",
       imageUrl:
-        "https://static.wikia.nocookie.net/dragonball/images/c/c4/SaiyansDBKK.png/revision/latest/scale-to-width-down/270?cb=20130814021958&path-prefix=pt-br",
+        "https://static.wikia.nocookie.net/dragonball/images/c/c4/SaiyansDBKK.png",
       caracteristicas:
         "Humanoides com cauda de macaco, pele clara, cabelos pretos e espetados",
       habilidadesEspeciais:
         "Transformações que elevam seu poder de luta, força sobre-humano, evoluções de poderes rápidas e constantes após cada batalha",
       nivelPoderMedio: "Alto",
-      planetaId: 3,
+      planetaId: 1,
     },
   }),
   prisma.raca.create({
@@ -287,7 +287,7 @@ prisma.raca.create({
       habilidadesEspeciais:
         "Força física extremamente alta, habilidades de luta avançadas",
       nivelPoderMedio: "Alto",
-      planetaId: 7,
+      planetaId: 12,
     },
   }),
   prisma.raca.create({
@@ -296,12 +296,12 @@ prisma.raca.create({
       descricao:
         "Os Konatsu-seijins  são uma raça de guerreiros do planeta Konatsu na Galáxia Sul. Eles são conhecidos por sua força e habilidades de luta.",
       imageUrl:
-        "https://static.wikia.nocookie.net/dragonball/images/0/08/Tapion_and_minotia.jpg/revision/latest/scale-to-width-down/180?cb=20150128163925&path-prefix=pt-br",
+        "https://static.wikia.nocookie.net/dragonball/images/0/08/Tapion_and_minotia.jpg",
       caracteristicas:
         "Cabelos vermelhos, orelhas pontudas algo que remete um anel na cabeça",
       habilidadesEspeciais: "Habilidades de luta avançadas, uso de espadas",
       nivelPoderMedio: "Médio",
-      planetaId: 9,
+      planetaId: 3,
     },
   }),
   prisma.raca.create({
@@ -310,12 +310,12 @@ prisma.raca.create({
       descricao:
         "Saibaimans são plantas alienígenas que se assemelham a pequenos arbustos com rostos e braços. Eles são criados e controlados por Freeza e seu exército para lutar contra seus inimigos.",
       imageUrl:
-        "https://static.wikia.nocookie.net/dragonball/images/8/8b/SaiabamenInfoBox.jpeg/revision/latest/scale-to-width-down/536?cb=20141227155300&path-prefix=pt-br",
+        "https://i.pinimg.com/736x/d1/10/a4/d110a4d521f6ecd341a1cd333d8bf11e.jpg",
       caracteristicas:
         "Pequenos arbustos com rostos e braços com cores variadas",
       habilidadesEspeciais: "Explodem ao contato, podem se multiplicar",
       nivelPoderMedio: "Baixo",
-      planetaId: 3,
+      planetaId: 1,
     },
   }),
   prisma.raca.create({
@@ -324,13 +324,13 @@ prisma.raca.create({
       descricao:
         "Yardrats são uma raça do Planeta Yardrat. Eles são uma raça fisicamente frágil, mas possuem a habilidade de manipular espaço e tempo, e ensinam a técnica do Teletransporte para Goku.",
       imageUrl:
-        "https://static.wikia.nocookie.net/dragonball/images/6/6c/Yadrats.png/revision/latest/scale-to-width-down/300?cb=20150210230113&path-prefix=pt-br",
+        "https://i.ibb.co/JW72XH8H/yardrat.png",
       caracteristicas:
         "Pequenos humanoides com pele rosa com orelhas pontudas",
       habilidadesEspeciais:
         "Manipulação de espaço e tempo, Teletransporte e hablidades especiais",
       nivelPoderMedio: "Médio",
-      planetaId: 14,
+      planetaId: 8,
     },
   }),
   prisma.raca.create({
@@ -339,11 +339,11 @@ prisma.raca.create({
       descricao:
         "Os Litt-seijins  são uma raça de guerreiros do planeta Litt. Eles são conhecidos por sua força e habilidades de luta.",
       imageUrl:
-        "https://static.wikia.nocookie.net/dragonball/images/6/6c/Bird-LikeFriezaSoldier.png/revision/latest/scale-to-width-down/300?cb=20150218170353&path-prefix=pt-br",
+        "https://static.wikia.nocookie.net/dragonball/images/6/6c/Bird-LikeFriezaSoldier.png",
       caracteristicas: "Humanoides com pele verde e penas coloridas",
       habilidadesEspeciais: "Habilidades de luta avançadas, voo",
       nivelPoderMedio: "Médio",
-      planetaId: 13,
+      planetaId: 7,
     },
   }),
   prisma.raca.create({
@@ -352,11 +352,11 @@ prisma.raca.create({
       descricao:
         "Raça com todos os personagens que não possuem uma raça conhecida.",
       imageUrl:
-        "https://static.wikia.nocookie.net/dragonball/images/8/89/Unknown_Planet.png/revision/latest?cb=20130814023349&path-prefix=pt-br",
+        "https://i.ibb.co/nsPmRKgc/raca-desconhecida.png",
       caracteristicas: "Desconhecido",
       habilidadesEspeciais: "Desconhecido",
       nivelPoderMedio: "Desconhecido",
-      planetaId: 16,
+      planetaId: 10,
     },
   })
   ]);
@@ -370,7 +370,6 @@ prisma.raca.create({
         ki: "1 milhão",
         planetaId: 1,
         racaId: 1,
-        racaName: "TESTE",
         tecnicasEspeciais: "Absorção de energia, energia ilimitada",
         transformacoes: "Sim (Fusão com os outros androides)",
         sagas: "Saga dos Androides, Saga de Cell",
@@ -386,7 +385,6 @@ prisma.raca.create({
         ki: "900 mil",
         planetaId: 1,
         racaId: 1,
-        racaName: "TESTE",
         tecnicasEspeciais: "Energia ilimitada, força sobre-humana",
         transformacoes: "Não",
         sagas: "Saga dos Androides, Saga de Cell",
@@ -402,7 +400,6 @@ prisma.raca.create({
         ki: "950 mil",
         planetaId: 1,
         racaId: 1,
-        racaName: "TESTE",
         tecnicasEspeciais: "Energia ilimitada, força sobre-humana",
         transformacoes: "Não",
         sagas: "Saga dos Androides, Saga de Cell",
@@ -418,7 +415,6 @@ prisma.raca.create({
         ki: "1.2 milhão",
         planetaId: 1,
         racaId: 1,
-        racaName: "TESTE",
         tecnicasEspeciais:
           "Energia ilimitada, força sobre-humana, auto-destruição",
         transformacoes: "Não",
@@ -435,7 +431,6 @@ prisma.raca.create({
         ki: "1.5 milhão",
         planetaId: 1,
         racaId: 1,
-        racaName: "TESTE",
         tecnicasEspeciais:
           "Energia ilimitada, força sobre-humana, barreira de energia",
         transformacoes: "Sim (Fusão com Andróide 18)",
@@ -452,7 +447,6 @@ prisma.raca.create({
         ki: "1.5 milhão",
         planetaId: 1,
         racaId: 1,
-        racaName: "TESTE",
         tecnicasEspeciais:
           "Energia ilimitada, força sobre-humana, barreira de energia",
         transformacoes: "Sim (Fusão com Andróide 17)",
@@ -469,7 +463,6 @@ prisma.raca.create({
         ki: "800 mil",
         planetaId: 1,
         racaId: 1,
-        racaName: "TESTE",
         tecnicasEspeciais: "Absorção de energia, energia ilimitada",
         transformacoes: "Não",
         sagas: "Saga dos Androides",
@@ -484,7 +477,6 @@ prisma.raca.create({
         ki: "800 mil",
         planetaId: 1,
         racaId: 1,
-        racaName: "TESTE",
         tecnicasEspeciais: "Absorção de energia, energia ilimitada",
         transformacoes: "Não",
         sagas: "Saga dos Androides",
@@ -500,7 +492,6 @@ prisma.raca.create({
         ki: "Desconhecido",
         planetaId: 1,
         racaId: 1,
-        racaName: "TESTE",
         tecnicasEspeciais: "Desconhecido",
         transformacoes: "Não",
         sagas: "Picollo, Saga Majin Boo",
@@ -516,7 +507,6 @@ prisma.raca.create({
         ki: "800 mil",
         planetaId: 3,
         racaId: 7,
-        racaName: "TESTE",
         tecnicasEspeciais: "Espírito Saiyajin, Explosão de Ki",
         transformacoes: "Sim (Super Saiyajin)",
         sagas: "Especial Bardock - O Pai de Goku, Dragon Ball Super: Broly",
@@ -532,7 +522,6 @@ prisma.raca.create({
         ki: "Desconhecido",
         planetaId: 11,
         racaId: 13,
-        racaName: "TESTE",
         tecnicasEspeciais:
           "Hakai (Destruição), Velocidade Divina, Força Sobre-humana",
         transformacoes: "Não",
@@ -550,7 +539,6 @@ prisma.raca.create({
         ki: "1.2 milhão",
         planetaId: 7,
         racaId: 8,
-        racaName: "TESTE",
         tecnicasEspeciais:
           "Força Sobre-humana, Habilidades de Combate Avançadas",
         transformacoes: "Sim (Forma Final)",
@@ -567,7 +555,6 @@ prisma.raca.create({
         ki: "100 mil",
         planetaId: 16,
         racaId: 13,
-        racaName: "TESTE",
         tecnicasEspeciais: "Velocidade Extrema, Força Sobre-humana",
         transformacoes: "Não",
         sagas: "Saga Freeza",
@@ -583,7 +570,6 @@ prisma.raca.create({
         ki: "10 milhões",
         planetaId: 3,
         racaId: 7,
-        racaName: "TESTE",
         tecnicasEspeciais:
           "Transformação em Super Saiyajin Lendário, Força Sobre-humana",
         transformacoes: "Sim (Super Saiyajin Lendário)",
@@ -600,7 +586,6 @@ prisma.raca.create({
         ki: "Desconhecido",
         planetaId: 1,
         racaId: 2,
-        racaName: "TESTE",
         tecnicasEspeciais: "Gênio Inventora, Habilidades Técnicas Avançadas",
         transformacoes: "Não",
         sagas: "Todas as sagas",
@@ -616,7 +601,6 @@ prisma.raca.create({
         ki: "400 mil",
         planetaId: 16,
         racaId: 13,
-        racaName: "TESTE",
         tecnicasEspeciais: "Troca de Corpos, Força Sobre-humana",
         transformacoes: "Não",
         sagas: "Saga Freeza",
@@ -632,7 +616,6 @@ prisma.raca.create({
         ki: "2 milhões",
         planetaId: 1,
         racaId: 1,
-        racaName: "TESTE",
         tecnicasEspeciais: "Absorção de energia, regeneração, Kamehameha",
         transformacoes: "Sim (Forma Perfeita)",
         sagas: "Saga de Cell",
@@ -648,7 +631,6 @@ prisma.raca.create({
         ki: "1.5 milhão",
         planetaId: 1,
         racaId: 1,
-        racaName: "TESTE",
         tecnicasEspeciais:
           "Força Sobre-humana, Habilidades de Combate Avançadas",
         transformacoes: "Não",
@@ -665,7 +647,6 @@ prisma.raca.create({
         ki: "Desconhecido",
         planetaId: 1,
         racaId: 2,
-        racaName: "TESTE",
         tecnicasEspeciais: "Auto-destruição, manipulação de energia",
         transformacoes: "Não",
         sagas: "Saga Sayajins",
@@ -681,7 +662,6 @@ prisma.raca.create({
         ki: "Desconhecido",
         planetaId: 1,
         racaId: 2,
-        racaName: "TESTE",
         tecnicasEspeciais: "Habilidades de Combate Básicas",
         transformacoes: "Não",
         sagas: "Todas as sagas",
@@ -697,7 +677,6 @@ prisma.raca.create({
         ki: "1.1 milhão",
         planetaId: 5,
         racaId: 6,
-        racaName: "TESTE",
         tecnicasEspeciais: "Transformações, Força Sobre-humana",
         transformacoes: "Sim (Várias formas)",
         sagas: "Dragon Ball Z: O Retorno de Cooler",
@@ -713,7 +692,6 @@ prisma.raca.create({
         ki: "1 milhão",
         planetaId: 5,
         racaId: 6,
-        racaName: "TESTE",
         tecnicasEspeciais: "Transformações, Death Beam, Supernova",
         transformacoes: "Sim (Várias formas)",
         sagas: "Saga Freeza, Saga Trunks do Futuro, Saga do Torneio do Poder",
@@ -729,7 +707,6 @@ prisma.raca.create({
         ki: "Desconhecido",
         planetaId: 3,
         racaId: 7,
-        racaName: "TESTE",
         tecnicasEspeciais: "Habilidades de Combate Básicas",
         transformacoes: "Não",
         sagas: "Dragon Ball Z bardock - O Pai de Goku",
@@ -745,7 +722,6 @@ prisma.raca.create({
         ki: "10 milhões",
         planetaId: 3,
         racaId: 7,
-        racaName: "TESTE",
         tecnicasEspeciais: "Fusão, Kamehameha, Big Bang Kamehameha",
         transformacoes: "Sim (Super Saiyajin, Super Saiyajin Blue)",
         sagas: "Dragon Ball Z: O Retorno de Broly, Dragon Ball Super: Broly",
@@ -761,7 +737,6 @@ prisma.raca.create({
         ki: "1 Bilhão",
         planetaId: 1,
         racaId: 7,
-        racaName: "TESTE",
         tecnicasEspeciais: "Masenko, Kamehameha,",
         transformacoes: "Sim (Super Saiyajin, Potencial Liberado)",
         sagas: "Todas as sagas",
@@ -777,7 +752,6 @@ prisma.raca.create({
         ki: "3 milhões",
         planetaId: 1,
         racaId: 7,
-        racaName: "TESTE",
         tecnicasEspeciais: "Fusão, Super Ghost Kamikaze Attack",
         transformacoes: "Sim (Super Saiyajin, Super Saiyajin 3)",
         sagas: "Saga Majin Boo",
@@ -793,7 +767,6 @@ prisma.raca.create({
         ki: "50 Bilhões",
         planetaId: 3,
         racaId: 7,
-        racaName: "TESTE",
         tecnicasEspeciais: "Kamehameha, Genki Dama, Teletransporte",
         transformacoes:
           "Sim (Ozaru, Super Saiyajin, Super Saiyajin Red, Super Saiyajin Blue, Ultra Instinto)",
@@ -810,7 +783,6 @@ prisma.raca.create({
         ki: "1 milhão",
         planetaId: 1,
         racaId: 7,
-        racaName: "TESTE",
         tecnicasEspeciais: "Kamehameha, Super Saiyajin",
         transformacoes: "Sim (Super Saiyajin, Fusão com Trunks)",
         sagas: "Saga Majin Boo",
@@ -826,7 +798,6 @@ prisma.raca.create({
         ki: "80 mil",
         planetaId: 16,
         racaId: 13,
-        racaName: "TESTE",
         tecnicasEspeciais: "Manipulação do Tempo, Força Sobre-humana",
         transformacoes: "Não",
         sagas: "Saga Freeza",
@@ -842,7 +813,6 @@ prisma.raca.create({
         ki: "Desconhecido",
         planetaId: 4,
         racaId: 3,
-        racaName: "TESTE",
         tecnicasEspeciais: "Teletransporte, Treinamento de Artes Marciais",
         transformacoes: "Não",
         sagas: "Saga Sayajins, Saga Freeza, Saga de Cell, Saga Majin Boo",
@@ -858,7 +828,6 @@ prisma.raca.create({
         ki: "Desconhecido",
         planetaId: 2,
         racaId: 5,
-        racaName: "TESTE",
         tecnicasEspeciais: "Regeneração, Criação de Esferas do Dragão",
         transformacoes: "Não",
         sagas: "Saga Freeza, Saga de Cell, Saga Majin Boo, Dragon Ball Super",
@@ -874,7 +843,6 @@ prisma.raca.create({
         ki: "200 mil",
         planetaId: 1,
         racaId: 2,
-        racaName: "TESTE",
         tecnicasEspeciais: "Kamehameha, Kienzan",
         transformacoes: "Não",
         sagas: "Todas as sagas",
@@ -890,7 +858,6 @@ prisma.raca.create({
         ki: "3 bilhões",
         planetaId: 1,
         racaId: 4,
-        racaName: "TESTE",
         tecnicasEspeciais: "Regeneração, Transformações, Kamehameha",
         transformacoes: "Sim (Várias formas)",
         sagas: "Saga Majin Boo",
@@ -906,7 +873,6 @@ prisma.raca.create({
         ki: "3 bilhões",
         planetaId: 1,
         racaId: 4,
-        racaName: "TESTE",
         tecnicasEspeciais: "Regeneração, Transformações, Kamehameha", 
         transformacoes: "Sim (Várias formas)",
         sagas: "Saga Majin Boo",
@@ -922,7 +888,6 @@ prisma.raca.create({
         ki: "4 bilhões",
         planetaId: 1,
         racaId: 4,
-        racaName: "TESTE",
         tecnicasEspeciais: "Regeneração, Transformações, Kamehameha",
         transformacoes: "Não",
         sagas: "Saga Majin Boo",
@@ -938,7 +903,6 @@ prisma.raca.create({
         ki: "Desconhecido",
         planetaId: 1,
         racaId: 2,
-        racaName: "TESTE",
         tecnicasEspeciais: "Kamehameha, Mafuba",
         transformacoes: "Não",
         sagas: "Todas as sagas",
@@ -954,7 +918,6 @@ prisma.raca.create({
         ki: "2 milhões",
         planetaId: 5,
         racaId: 8,
-        racaName: "TESTE",
         tecnicasEspeciais: "Transformações, Força Sobre-humana",
         transformacoes: "Sim (Forma Metálica)",
         sagas: "Dragon Ball Z: O Retorno de Cooler",
@@ -970,7 +933,6 @@ prisma.raca.create({
         ki: "10 mil",
         planetaId: 3,
         racaId: 7,
-        racaName: "TESTE",
         tecnicasEspeciais:
           "Força Sobre-humana, Habilidades de Combate Avançadas",
         transformacoes: "Não",
@@ -987,7 +949,6 @@ prisma.raca.create({
         ki: "800 milhões",
         planetaId: 2,
         racaId: 5,
-        racaName: "TESTE",
         tecnicasEspeciais: "Makankosappo, Regeneração, Fusão",
         transformacoes: "Sim (Fusão com Kami e Nail)",
         sagas: "Todas as sagas",
@@ -1003,7 +964,6 @@ prisma.raca.create({
         ki: "1 mil",
         planetaId: 3,
         racaId: 7,
-        racaName: "TESTE",
         tecnicasEspeciais:
           "Força Sobre-humana, Habilidades de Combate Avançadas",
         transformacoes: "Não",
@@ -1020,7 +980,6 @@ prisma.raca.create({
         ki: "Desconhecido",
         planetaId: 3,
         racaId: 7,
-        racaName: "TESTE",
         tecnicasEspeciais: "Habilidades de Combate Avançadas",
         transformacoes: "Não",
         sagas: "Saga Freeza",
@@ -1036,7 +995,6 @@ prisma.raca.create({
         ki: "300 mil",
         planetaId: 16,
         racaId: 13,
-        racaName: "TESTE",
         tecnicasEspeciais:
           "Força Sobre-humana, Habilidades de Combate Avançadas",
         transformacoes: "Não",
@@ -1053,7 +1011,6 @@ prisma.raca.create({
         ki: "Desconhecido",
         planetaId: 1,
         racaId: 2,
-        racaName: "TESTE",
         tecnicasEspeciais:
           "Habilidades de Combate Básicas, Assistência ao Kami",
         transformacoes: "Não",
@@ -1071,7 +1028,6 @@ prisma.raca.create({
         ki: "3.5 milhões",
         planetaId: 9,
         racaId: 9,
-        racaName: "TESTE",
         tecnicasEspeciais:
           "Força Sobre-humana, Habilidades de Combate Avançadas, Uso de Espada",
         transformacoes: "Não",
@@ -1088,7 +1044,6 @@ prisma.raca.create({
         ki: "180 mil",
         planetaId: 1,
         racaId: 2,
-        racaName: "TESTE",
         tecnicasEspeciais: "Kikoho, Dodonpa, Shiyoken",
         transformacoes: "Não",
         sagas: "Todas as sagas",
@@ -1104,7 +1059,6 @@ prisma.raca.create({
         ki: "1 milhão",
         planetaId: 1,
         racaId: 7,
-        racaName: "TESTE",
         tecnicasEspeciais: "Fusão",
         transformacoes: "Sim (Super Saiyajin, Fusão com Goten)",
         sagas: "Saga Majin Boo",
@@ -1120,7 +1074,6 @@ prisma.raca.create({
         ki: "2 milhões",
         planetaId: 1,
         racaId: 7,
-        racaName: "TESTE",
         tecnicasEspeciais:
           "Galick-ho, Habilidades de Combate Avançadas, Uso de Espada",
         transformacoes: "Sim (Super Saiyajin)",
@@ -1137,7 +1090,6 @@ prisma.raca.create({
         ki: "49 bilhões",
         planetaId: 3,
         racaId: 7,
-        racaName: "TESTE",
         tecnicasEspeciais: "Galick-ho, Final Flash, Big Bang Attack",
         transformacoes:
           "Sim (Ozaru, Super Saiyajin, Super Saiyajin Red, Super Saiyajin Blue)",
@@ -1154,7 +1106,6 @@ prisma.raca.create({
         ki: "Desconhecido",
         planetaId: 15,
         racaId: 3,
-        racaName: "TESTE",
         tecnicasEspeciais: "Teletransporte, Treinamento de Artes Marciais",
         transformacoes: "Não",
         sagas: "Saga Majin Boo, Dragon Ball Super",
@@ -1170,7 +1121,6 @@ prisma.raca.create({
         ki: "Desconhecido",
         planetaId: 1,
         racaId: 2,
-        racaName: "TESTE",
         tecnicasEspeciais: "Habilidades de Combate Básicas, Voo",
         transformacoes: "Não",
         sagas: "Saga Majin Boo, Dragon Ball Super",
@@ -1186,7 +1136,6 @@ prisma.raca.create({
         ki: "Desconhecido",
         planetaId: 1,
         racaId: 2,
-        racaName: "TESTE",
         tecnicasEspeciais: "Habilidades de Combate Básicas",
         transformacoes: "Não",
         sagas: "Saga Majin Boo, Dragon Ball Super",
@@ -1202,7 +1151,6 @@ prisma.raca.create({
         ki: "Desconhecido",
         planetaId: 11,
         racaId: 13,
-        racaName: "TESTE",
         tecnicasEspeciais:
           "Manipulação do Tempo, Habilidades de Combate Avançadas",
         transformacoes: "Não",
@@ -1219,7 +1167,6 @@ prisma.raca.create({
         ki: "80 mil",
         planetaId: 1,
         racaId: 2,
-        racaName: "TESTE",
         tecnicasEspeciais: "Kamehameha, Roubo de Energia",
         transformacoes: "Não",
         sagas: "Todas as sagas",
@@ -1235,7 +1182,6 @@ prisma.raca.create({
         ki: "100 mil",
         planetaId: 16,
         racaId: 13,
-        racaName: "TESTE",
         tecnicasEspeciais: "Transformações, Força Sobre-humana",
         transformacoes: "Sim (Forma Monstruosa)",
         sagas: "Saga Freeza",
