@@ -6,8 +6,7 @@ const prisma = new PrismaClient();
 
 async function main() {
 
-  const planetaTotal = await Promise.all([
-    prisma.planeta.create({
+   const terra = await prisma.planeta.create({
       data: {
         name: "Terra",
         descricao:
@@ -16,9 +15,9 @@ async function main() {
           "https://i.pinimg.com/1200x/37/f2/98/37f298c23875401381aa5dbde4bdd2f4.jpg",
         nivelPoder: "Extremamente variado",
       },
-    }),
+    });
 
-    prisma.planeta.create({
+   const namekusei = await prisma.planeta.create({
       data: {
         name: "Namekusei",
         descricao: 
@@ -27,19 +26,19 @@ async function main() {
           "https://i.pinimg.com/1200x/6a/0b/1a/6a0b1a1e8ca723395dffa06c21297eb3.jpg",
         nivelPoder: "Médio-alto",
       },
-    }),
-    
-    prisma.planeta.create({
+    });
+
+   const planetaVegeta = await prisma.planeta.create({
       data: {
-        name: "Vegeta",
+        name: "Planeta Vegeta",
         descricao:
           "Planeta natal dos Saiyajins, destruído por Freeza; ambiente hostil, força bruta entre os habitantes.",
         imageUrl:
           "https://i.pinimg.com/1200x/62/89/35/628935d11e6b4b68f63df2576e76881b.jpg",
         nivelPoder: "Alto",
       },
-    }),
-    prisma.planeta.create({
+    });
+   const planetaKaioshin = await prisma.planeta.create({
       data: {
         name: "Kaioshin",
         descricao:
@@ -48,8 +47,8 @@ async function main() {
           "https://i.pinimg.com/1200x/e9/3c/e7/e93ce7e7e10916dd4dec5bcff50d23cb.jpg",
         nivelPoder: "Baixo",
       },
-    }),
-    prisma.planeta.create({
+    });
+   const freeza79 = await prisma.planeta.create({
       data: {
         name: "Freeza 79",
         descricao:
@@ -58,8 +57,8 @@ async function main() {
           "https://i.pinimg.com/1200x/71/d6/9d/71d69db45e26329c7b4d051deffdacc5.jpg",
         nivelPoder: "Alto",
       },
-    }),
-    prisma.planeta.create({
+    });
+   const arlia = await prisma.planeta.create({
       data: {
         name: "Arlia",
         descricao:
@@ -68,8 +67,8 @@ async function main() {
           "https://i.ibb.co/jPZNbYw1/planeta-airla.png",
         nivelPoder: "Baixo",
       },
-    }),
-    prisma.planeta.create({
+    });
+   const planetaHera = await prisma.planeta.create({
       data: {
         name: "Hera",
         descricao:
@@ -78,8 +77,8 @@ async function main() {
           "https://static.wikia.nocookie.net/dblegacy/images/9/90/Planethera.png",
         nivelPoder: "Alto",
       },
-    }),
-    prisma.planeta.create({
+    });
+   const estrelaGete = await prisma.planeta.create({
       data: {
         name: "Estrela Gete",
         descricao:
@@ -88,8 +87,8 @@ async function main() {
           "https://i.ibb.co/w1cWGSk/estrela-gete.png",
         nivelPoder: "Infinito",
       },
-    }),
-    prisma.planeta.create({
+    });
+    const planetaKonatsu = await prisma.planeta.create({
       data: {
         name: "Konatsu",
         descricao:
@@ -98,8 +97,8 @@ async function main() {
           "https://static.wikia.nocookie.net/dragonball/images/0/0c/Konats.jpg",
         nivelPoder: "Médio",
       },
-    }),
-    prisma.planeta.create({
+    });
+    const novoPlanetaVegeta = await prisma.planeta.create({
       data: {
         name: "Novo Planeta Vegeta",
         descricao:
@@ -108,8 +107,8 @@ async function main() {
           "https://static.wikia.nocookie.net/dragonball/images/5/5c/New_Planet_Vegeta.jpg",
         nivelPoder: "Alto",
       },
-    }),
-    prisma.planeta.create({
+    });
+   const planetaBeerus = await prisma.planeta.create({
       data: {
         name: "Planeta Beerus",
         descricao:
@@ -118,8 +117,8 @@ async function main() {
           "https://static.wikia.nocookie.net/dragonball/images/f/f8/BeerusPlanetDBSEp30001.png",
         nivelPoder: "Extremamente alto",
       },
-    }),
-    prisma.planeta.create({
+    });
+   const planetaGrandeKaioh = await prisma.planeta.create({
       data: {
         name: "Planeta do Grande Kaioh",
         descricao:
@@ -128,8 +127,8 @@ async function main() {
           "https://static.wikia.nocookie.net/dragonball/images/a/a3/GrandKaisPlanet.png",
         nivelPoder: "Médio-alto",
       },
-    }),
-    prisma.planeta.create({
+    });
+   const planetaLitt = await prisma.planeta.create({
       data: {
         name: "Planeta Litt",
         descricao:
@@ -138,8 +137,8 @@ async function main() {
           "https://static.wikia.nocookie.net/dragonball/images/e/ed/PlanetLitt1.png",
         nivelPoder: "Baixo",
       },
-    }),
-    prisma.planeta.create({
+    });
+   const planetaYardrat = await prisma.planeta.create({
       data: {
         name: "Planeta Yardrat",
         descricao:
@@ -148,8 +147,8 @@ async function main() {
           "https://static.wikia.nocookie.net/dragonball/images/b/b1/PlanetYardrat.png",
         nivelPoder: "Médio",
       },
-    }),
-    prisma.planeta.create({
+    });
+  const planetaKaishin = await prisma.planeta.create({
       data: {
         name: "Planeta Kaishin",
         descricao:
@@ -158,8 +157,8 @@ async function main() {
           "https://static.wikia.nocookie.net/dragonball/images/f/f0/SacredWorldoftheKais.png",
         nivelPoder: "Alto",
       },
-    }),
-    prisma.planeta.create({
+    });
+   const planetaDesconhecido = await prisma.planeta.create({
       data: {
         name: "Planeta Desconhecido",
         descricao:
@@ -168,11 +167,10 @@ async function main() {
           "https://i.ibb.co/21fTVj3P/planeta-desconhecido.png",
         nivelPoder: "Desconhecido",
       },
-    }),
-  ]);
+    });
 
- const racasTotal = await Promise.all([
-prisma.raca.create({
+    // Raças
+   const androides = await prisma.raca.create({
     data: {
       name: "Andróides",
       descricao:
@@ -184,10 +182,10 @@ prisma.raca.create({
       habilidadesEspeciais:
         "Resistência maior a danos, força sobre-humana, indetectáveis por rastreadores de Ki e energia ilimitada",
       nivelPoderMedio: "Extremamente alto",
-      planetaId: 16,
+      planetaId: terra.id,
     },
-  }),
-  prisma.raca.create({
+  });
+  const terraqueos = await prisma.raca.create({
     data: {
       name: "Terráqueos",
       descricao:
@@ -198,10 +196,10 @@ prisma.raca.create({
         "Menos poderosos comparados a maioria e grande diversidade.",
       habilidadesEspeciais: "Extremamente variado, dependendo do indivíduo",
       nivelPoderMedio: "Baixo",
-      planetaId: 16,
+      planetaId: terra.id,
     },
-  }),
-  prisma.raca.create({
+  });
+  const glinds = await prisma.raca.create({
     data: {
       name: "Glinds",
       descricao:
@@ -213,10 +211,10 @@ prisma.raca.create({
       habilidadesEspeciais:
         "Poderes espirituais e imortalidade (não envelhecem)",
       nivelPoderMedio: "Alto",
-      planetaId: 9,
+      planetaId: planetaKaishin.id,
     },
-  }),
-  prisma.raca.create({
+  });
+ const majin = await prisma.raca.create({
     data: {
       name: "Majin",
       descricao:
@@ -228,12 +226,12 @@ prisma.raca.create({
       habilidadesEspeciais:
         "Regeneração total de seu corpo, transformações de coisas e seres em doces, poder de cura e poder de absorção",
       nivelPoderMedio: "Extremamente alto",
-      planetaId: 9,
+      planetaId: planetaKaishin.id,
     },
-  }),
-  prisma.raca.create({
+  });
+  const namekuseijins = await prisma.raca.create({
     data: {
-      name: "Nmaekuseijin",
+      name: "Namekuseijin",
       descricao:
         "Namekuseijins  são uma raça originária do Reino dos Demônios. Eles existem tanto no Universo 6 quanto no Universo 7, habitando o planeta Namekusei nesses universos, tendo se mudado do Reino dos Demônios para lá há muito tempo. Eles estão entre as raças mais importantes da série, pois eles são os criadores das Esferas do Dragão.",
       imageUrl:
@@ -243,10 +241,10 @@ prisma.raca.create({
       habilidadesEspeciais:
         "Regeneração, poderes mágicos, podem criar Esferas do Dragão e podem se multiplicar",
       nivelPoderMedio: "Médio-alto",
-      planetaId: 15,
+      planetaId: namekusei.id,
     },
-  }),
-  prisma.raca.create({
+  });
+ const racaFreeza = await prisma.raca.create({
     data: {
     name: "Raça do Freeza",
     descricao:
@@ -257,25 +255,25 @@ prisma.raca.create({
     habilidadesEspeciais:
       "Transformações que elevam seu poder de luta e podem sobreviver no espaço",
     nivelPoderMedio: "Extremamente alto",
-    planetaId: 13,
+    planetaId: freeza79.id,
   },
-  }),
-  prisma.raca.create({
+  });
+ const saiyajin = await prisma.raca.create({
     data: {
       name: "Saiyajin",
       descricao:
         "Os Saiyajins  são uma raça guerreira que foi quase toda extinta por Freeza antes do começo da série Dragon Ball. Eles têm um papel central em Dragon Ball Z, Dragon Ball GT, e Dragon Ball Super após ser revelado que o protagonista Goku é na verdade um Saiyajin que foi mandado para destruir a Terra.",
       imageUrl:
-        "https://static.wikia.nocookie.net/dragonball/images/c/c4/SaiyansDBKK.png",
+        "https://i.ibb.co/RTJDngLk/sayajin.png",
       caracteristicas:
         "Humanoides com cauda de macaco, pele clara, cabelos pretos e espetados",
       habilidadesEspeciais:
         "Transformações que elevam seu poder de luta, força sobre-humano, evoluções de poderes rápidas e constantes após cada batalha",
       nivelPoderMedio: "Alto",
-      planetaId: 1,
+      planetaId: planetaVegeta.id,
     },
-  }),
-  prisma.raca.create({
+  });
+ const racaHera = await prisma.raca.create({
     data: {
       name: "Raça Hera",
       descricao:
@@ -287,10 +285,10 @@ prisma.raca.create({
       habilidadesEspeciais:
         "Força física extremamente alta, habilidades de luta avançadas",
       nivelPoderMedio: "Alto",
-      planetaId: 12,
+      planetaId: planetaHera.id,
     },
-  }),
-  prisma.raca.create({
+  });
+ const konatsuSeijins = await prisma.raca.create({
     data: {
       name: "Konatsu-seijins",
       descricao:
@@ -301,10 +299,10 @@ prisma.raca.create({
         "Cabelos vermelhos, orelhas pontudas algo que remete um anel na cabeça",
       habilidadesEspeciais: "Habilidades de luta avançadas, uso de espadas",
       nivelPoderMedio: "Médio",
-      planetaId: 3,
+      planetaId: planetaKonatsu.id,
     },
-  }),
-  prisma.raca.create({
+  });
+ const saibaiman = await prisma.raca.create({
     data: {
       name: "Saibaimans",
       descricao:
@@ -315,10 +313,10 @@ prisma.raca.create({
         "Pequenos arbustos com rostos e braços com cores variadas",
       habilidadesEspeciais: "Explodem ao contato, podem se multiplicar",
       nivelPoderMedio: "Baixo",
-      planetaId: 1,
+      planetaId: planetaVegeta.id,
     },
-  }),
-  prisma.raca.create({
+  });
+ const yardrat = await prisma.raca.create({
     data: {
       name: "Yardrat",
       descricao:
@@ -330,10 +328,10 @@ prisma.raca.create({
       habilidadesEspeciais:
         "Manipulação de espaço e tempo, Teletransporte e hablidades especiais",
       nivelPoderMedio: "Médio",
-      planetaId: 8,
+      planetaId: planetaYardrat.id,
     },
-  }),
-  prisma.raca.create({
+  });
+ const littSeijins = await prisma.raca.create({
     data: {
       name: "Litt-seijins",
       descricao:
@@ -343,10 +341,10 @@ prisma.raca.create({
       caracteristicas: "Humanoides com pele verde e penas coloridas",
       habilidadesEspeciais: "Habilidades de luta avançadas, voo",
       nivelPoderMedio: "Médio",
-      planetaId: 7,
+      planetaId: planetaLitt.id,
     },
-  }),
-  prisma.raca.create({
+  });
+ const racaDesconhecida = await prisma.raca.create({
     data: {
       name: "Raça Desconhecida",
       descricao:
@@ -356,65 +354,67 @@ prisma.raca.create({
       caracteristicas: "Desconhecido",
       habilidadesEspeciais: "Desconhecido",
       nivelPoderMedio: "Desconhecido",
-      planetaId: 10,
+      planetaId: planetaDesconhecido.id,
     },
-  })
-  ]);
+  });
 
-  const personagensTotal = await Promise.all([
-    prisma.personagem.create({
+    // Personagens
+
+  const androide13 = await prisma.personagem.create({
       data: {
         name: "Andróide 13",
         imageUrl:
           "https://i.pinimg.com/736x/41/a2/0b/41a20b88486ae7653558d3a23e6c58ea.jpg",
         ki: "1 milhão",
-        planetaId: 1,
-        racaId: 1,
+        planetaId: terra.id,
+        racaId: androides.id,
         tecnicasEspeciais: "Absorção de energia, energia ilimitada",
         transformacoes: "Sim (Fusão com os outros androides)",
         sagas: "Saga dos Androides, Saga de Cell",
         biografia:
           "Andróide 13 é um dos antagonistas do filme Dragon Ball Z: O Super Andróide. Ele é um andróide criado pelo Dr. Gero com o objetivo de eliminar Goku. Andróide 13 é conhecido por sua força imensa e habilidades de combate avançadas.",
       },
-    }),
-    prisma.personagem.create({
+    });
+   const androide14 = await prisma.personagem.create({
       data: {
         name: "Andróide 14",
         imageUrl:
           "https://i.pinimg.com/1200x/b8/df/f8/b8dff8174374c6e18588249c57170571.jpg",
         ki: "900 mil",
-        planetaId: 1,
-        racaId: 1,
+        planetaId: terra.id,
+        racaId: androides.id,
         tecnicasEspeciais: "Energia ilimitada, força sobre-humana",
         transformacoes: "Não",
         sagas: "Saga dos Androides, Saga de Cell",
         biografia:
           "Andróide 14 é um dos antagonistas do filme Dragon Ball Z: O Super Andróide. Ele é um andróide criado pelo Dr. Gero com o objetivo de eliminar Goku. Andróide 14 é conhecido por sua força imensa e habilidades de combate avançadas.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const androide15 = await prisma.personagem.create({
       data: {
         name: "Andróide 15",
         imageUrl:
           "https://i.pinimg.com/736x/06/b2/08/06b208aaed4159a7f6fe14d72e9c77fd.jpg",
         ki: "950 mil",
-        planetaId: 1,
-        racaId: 1,
+        planetaId: terra.id,
+        racaId: androides.id,
         tecnicasEspeciais: "Energia ilimitada, força sobre-humana",
         transformacoes: "Não",
         sagas: "Saga dos Androides, Saga de Cell",
         biografia:
           "Andróide 15 é um dos antagonistas do filme Dragon Ball Z: O Super Andróide. Ele é um andróide criado pelo Dr. Gero com o objetivo de eliminar Goku. Andróide 15 é conhecido por sua força imensa e habilidades de combate avançadas.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+   const androide16 = await prisma.personagem.create({
       data: {
         name: "Andróide 16",
         imageUrl:
           "https://i.pinimg.com/736x/5c/b1/b0/5cb1b0137405c88154695e6a25a55af9.jpg",
         ki: "1.2 milhão",
-        planetaId: 1,
-        racaId: 1,
+        planetaId: terra.id,
+        racaId: androides.id,
         tecnicasEspeciais:
           "Energia ilimitada, força sobre-humana, auto-destruição",
         transformacoes: "Não",
@@ -422,15 +422,16 @@ prisma.raca.create({
         biografia:
           "Andróide 16 é um dos antagonistas da série Dragon Ball Z. Ele é um andróide criado pelo Dr. Gero com o objetivo de eliminar Goku. Andróide 16 é conhecido por sua força imensa, habilidades de combate avançadas e sua natureza pacífica, apesar de ser um andróide.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+  const androide17 = await prisma.personagem.create({
       data: {
         name: "Andróide 17",
         imageUrl:
           "https://i.pinimg.com/1200x/4f/eb/83/4feb83da1118ab2785b3c4d985cfa5ee.jpg",
         ki: "1.5 milhão",
-        planetaId: 1,
-        racaId: 1,
+        planetaId: terra.id,
+        racaId: androides.id,
         tecnicasEspeciais:
           "Energia ilimitada, força sobre-humana, barreira de energia",
         transformacoes: "Sim (Fusão com Andróide 18)",
@@ -438,15 +439,16 @@ prisma.raca.create({
         biografia:
           "Andróide 17 é um dos antagonistas da série Dragon Ball Z e posteriormente um aliado em Dragon Ball Super. Ele é um andróide criado pelo Dr. Gero com o objetivo de eliminar Goku. Andróide 17 é conhecido por sua força imensa, habilidades de combate avançadas e sua personalidade fria e calculista.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+  const androide18 = await prisma.personagem.create({
       data: {
         name: "Andróide 18",
         imageUrl:
           "https://i.pinimg.com/736x/20/55/c3/2055c3287b1e0f4a5f9c66a801454e70.jpg",
         ki: "1.5 milhão",
-        planetaId: 1,
-        racaId: 1,
+        planetaId: terra.id,
+        racaId: androides.id,
         tecnicasEspeciais:
           "Energia ilimitada, força sobre-humana, barreira de energia",
         transformacoes: "Sim (Fusão com Andróide 17)",
@@ -455,73 +457,78 @@ prisma.raca.create({
         biografia:
           "Andróide 18 é uma das antagonistas da série Dragon Ball Z e posteriormente uma aliada em Dragon Ball Super. Ela é um andróide criado pelo Dr. Gero com o objetivo de eliminar Goku. Andróide 18 é conhecida por sua força imensa, habilidades de combate avançadas e sua personalidade fria e calculista, mas também mostra um lado mais humano após se casar com Kuririn.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const androide19 = await prisma.personagem.create({
       data: {
         name: "Andróide 19",
         imageUrl: "https://i.pinimg.com/1200x/47/bc/fe/47bcfe59d27c7482a1299f64ccf97590.jpg",
         ki: "800 mil",
-        planetaId: 1,
-        racaId: 1,
+        planetaId: terra.id,
+        racaId: androides.id,
         tecnicasEspeciais: "Absorção de energia, energia ilimitada",
         transformacoes: "Não",
         sagas: "Saga dos Androides",
         biografia: "Andróide 19 é um dos antagonistas da Saga dos Andróides em Dragon Ball Z. Ele é um andróide criado pelo Dr. Gero com o objetivo de eliminar Goku. Andróide 19 é conhecido por sua força imensa e habilidades de combate avançadas."
       },
-    }),
-    prisma.personagem.create({
+    });
+
+  const androide20 = await prisma.personagem.create({
       data: {
         name: "Andróide 20 (Dr. Gero)",
         imageUrl:
           "https://i.pinimg.com/736x/e3/3f/7f/e33f7facea27ef6b1f441dffc6c191c8.jpg",
         ki: "800 mil",
-        planetaId: 1,
-        racaId: 1,
+        planetaId: terra.id,
+        racaId: androides.id,
         tecnicasEspeciais: "Absorção de energia, energia ilimitada",
         transformacoes: "Não",
         sagas: "Saga dos Androides",
         biografia:
           "Dr. Gero, também conhecido como Andróide 20, é o criador dos andróides e um dos principais antagonistas da Saga dos Andróides em Dragon Ball Z. Ele é um cientista brilhante que se tornou obcecado em eliminar Goku e seus amigos, criando uma série de andróides poderosos para esse fim.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+   const anunciador = await prisma.personagem.create({
       data: {
         name: "Anunciador do Torneio",
         imageUrl:
           "https://i.pinimg.com/736x/f1/35/0e/f1350e8fbc09bfb319deb15462c5906f.jpg",
         ki: "Desconhecido",
-        planetaId: 1,
-        racaId: 1,
+        planetaId: terra.id,
+        racaId: terraqueos.id,
         tecnicasEspeciais: "Desconhecido",
         transformacoes: "Não",
         sagas: "Picollo, Saga Majin Boo",
         biografia:
           "O Anunciador do Torneio é um personagem que aparece durante o Torneio de Artes Marciais em Dragon Ball Z. Ele é responsável por anunciar os lutadores e as lutas que acontecem durante o torneio. Embora não tenha um papel significativo na história, ele é uma presença constante durante os torneios e é conhecido por sua voz alta e entusiasmada.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+   const bardock = await prisma.personagem.create({
       data: {
         name: "Bardock",
         imageUrl:
           "https://i.pinimg.com/1200x/1f/f0/27/1ff0276e692402bcbe4906117a79b954.jpg",
         ki: "800 mil",
-        planetaId: 3,
-        racaId: 7,
+        planetaId: planetaVegeta.id,
+        racaId: saiyajin.id,
         tecnicasEspeciais: "Espírito Saiyajin, Explosão de Ki",
         transformacoes: "Sim (Super Saiyajin)",
         sagas: "Especial Bardock - O Pai de Goku, Dragon Ball Super: Broly",
         biografia:
           "Bardock é o pai de Goku e um guerreiro Saiyajin. Ele é conhecido por sua bravura e determinação em lutar contra as forças do mal, mesmo quando está em desvantagem. Bardock desempenha um papel crucial na história de Dragon Ball, especialmente em relação à origem de Goku e à destruição do Planeta Vegeta.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+   const beerus = await prisma.personagem.create({
       data: {
         name: "Beerus",
         imageUrl:
           "https://i.pinimg.com/1200x/c4/c6/e1/c4c6e175abd9fcba375d895fe87aaa61.jpg",
         ki: "Desconhecido",
-        planetaId: 11,
-        racaId: 13,
+        planetaId: planetaBeerus.id,
+        racaId: racaDesconhecida.id,
         tecnicasEspeciais:
           "Hakai (Destruição), Velocidade Divina, Força Sobre-humana",
         transformacoes: "Não",
@@ -530,15 +537,16 @@ prisma.raca.create({
         biografia:
           "Beerus é o Deus da Destruição do Universo 7 em Dragon Ball Super. Ele é um ser extremamente poderoso e tem a responsabilidade de manter o equilíbrio no universo, destruindo planetas e civilizações quando necessário. Beerus é conhecido por seu temperamento imprevisível e sua paixão por comida deliciosa.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+   const bojack = await prisma.personagem.create({
       data: {
         name: "Bojack",
         imageUrl:
           "https://i.pinimg.com/1200x/55/c4/97/55c4976a299c3091af78623888ec1c4f.jpg",
         ki: "1.2 milhão",
-        planetaId: 7,
-        racaId: 8,
+        planetaId: planetaHera.id,
+        racaId: racaHera.id,
         tecnicasEspeciais:
           "Força Sobre-humana, Habilidades de Combate Avançadas",
         transformacoes: "Sim (Forma Final)",
@@ -546,30 +554,32 @@ prisma.raca.create({
         biografia:
           "Bojack é o antagonista principal do filme Dragon Ball Z: O Retorno de Bojack. Ele é um pirata espacial extremamente poderoso que foi selado em uma cápsula por 30 anos antes de ser libertado por acidente. Bojack busca vingança contra os guerreiros Z e tem como objetivo dominar o universo.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const booter = await prisma.personagem.create({
       data: {
         name: "Booter",
         imageUrl:
           "https://i.pinimg.com/736x/d6/e4/3a/d6e43a0ccb5de89910d5d94c2f598506.jpg",
         ki: "100 mil",
-        planetaId: 16,
-        racaId: 13,
+        planetaId: planetaDesconhecido.id,
+        racaId: racaDesconhecida.id,
         tecnicasEspeciais: "Velocidade Extrema, Força Sobre-humana",
         transformacoes: "Não",
         sagas: "Saga Freeza",
         biografia:
           "Burter é um membro do Esquadrão Ginyu, uma equipe de elite que serve sob o comando de Freeza. Ele é conhecido por sua velocidade incrível, sendo considerado o ser mais rápido do universo. Burter é um lutador habilidoso e confiante, mas acaba sendo derrotado pelos guerreiros Z durante a batalha em Namekusei.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const broly = await prisma.personagem.create({
       data: {
         name: "Broly",
         imageUrl:
           "https://i.pinimg.com/736x/1a/89/a1/1a89a1569971fce5ffa1173db6df8448.jpg",
         ki: "10 milhões",
-        planetaId: 3,
-        racaId: 7,
+        planetaId: planetaVegeta.id,
+        racaId: saiyajin.id,
         tecnicasEspeciais:
           "Transformação em Super Saiyajin Lendário, Força Sobre-humana",
         transformacoes: "Sim (Super Saiyajin Lendário)",
@@ -577,60 +587,64 @@ prisma.raca.create({
         biografia:
           "Broly é um Saiyajin lendário conhecido por sua força imensa e natureza selvagem. Ele é o protagonista dos filmes Dragon Ball Z: O Retorno de Broly e Dragon Ball Super: Broly. Broly possui uma transformação única chamada Super Saiyajin Lendário, que aumenta seu poder de forma exponencial. Apesar de sua força, Broly é um personagem trágico, lutando para controlar sua raiva e instintos destrutivos.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const bulma = await prisma.personagem.create({
       data: {
         name: "Bulma",
         imageUrl:
           "https://i.pinimg.com/736x/e5/38/29/e53829b8d0addb4674de1a4bd8571096.jpg",
         ki: "Desconhecido",
-        planetaId: 1,
-        racaId: 2,
+        planetaId: terra.id,
+        racaId: terraqueos.id,
         tecnicasEspeciais: "Gênio Inventora, Habilidades Técnicas Avançadas",
         transformacoes: "Não",
         sagas: "Todas as sagas",
         biografia:
           "Bulma é uma das personagens principais da série Dragon Ball. Ela é uma cientista brilhante e inventora, conhecida por criar várias tecnologias importantes, incluindo as Esferas do Dragão. Bulma é amiga próxima de Goku e desempenha um papel crucial em muitas das aventuras dos guerreiros Z.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const capitãoGinyu = await prisma.personagem.create({
       data: {
         name: "Capitão Ginyu",
         imageUrl:
           "https://i.pinimg.com/1200x/f0/54/d5/f054d57efdb5a90d13505f41113dc969.jpg",
         ki: "400 mil",
-        planetaId: 16,
-        racaId: 13,
+        planetaId: planetaDesconhecido.id,
+        racaId: racaDesconhecida.id,
         tecnicasEspeciais: "Troca de Corpos, Força Sobre-humana",
         transformacoes: "Não",
         sagas: "Saga Freeza",
         biografia:
           "Capitão Ginyu é o líder do Esquadrão Ginyu, uma equipe de elite que serve sob o comando de Freeza. Ele é conhecido por sua habilidade única de trocar de corpos com outros seres, o que ele usa para tentar derrotar os guerreiros Z. Capitão Ginyu é um lutador poderoso e estratégico, mas acaba sendo derrotado pelos guerreiros Z durante a batalha em Namekusei.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+   const cell = await prisma.personagem.create({
       data: {
         name: "Cell",
         imageUrl:
           "https://i.pinimg.com/1200x/bc/ca/8a/bcca8a039018031b51ec783601c247d3.jpg",
         ki: "2 milhões",
-        planetaId: 1,
-        racaId: 1,
+        planetaId: terra.id,
+        racaId: androides.id,
         tecnicasEspeciais: "Absorção de energia, regeneração, Kamehameha",
         transformacoes: "Sim (Forma Perfeita)",
         sagas: "Saga de Cell",
         biografia:
           "Cell é um dos principais antagonistas da série Dragon Ball Z. Ele é um bio-andróide criado pelo Dr. Gero, projetado para ser o guerreiro perfeito ao absorver as células de outros guerreiros poderosos. Cell passa por várias transformações, culminando em sua forma perfeita, onde se torna uma ameaça formidável para os guerreiros Z. Ele é conhecido por sua inteligência, habilidades de combate avançadas e capacidade de regeneração.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const cellJr = await prisma.personagem.create({
       data: {
         name: "Cell Jr.",
         imageUrl:
           "https://i.pinimg.com/1200x/aa/83/6c/aa836c2a969f3ae8cd4bf5d8234ded46.jpg",
         ki: "1.5 milhão",
-        planetaId: 1,
-        racaId: 1,
+        planetaId: terra.id,
+        racaId: androides.id,
         tecnicasEspeciais:
           "Força Sobre-humana, Habilidades de Combate Avançadas",
         transformacoes: "Não",
@@ -638,135 +652,144 @@ prisma.raca.create({
         biografia:
           "Cell Jr. são pequenas criaturas criadas por Cell durante a Saga de Cell em Dragon Ball Z. Eles são clones de Cell, possuindo habilidades e poderes semelhantes aos do original. Cell Jr. são extremamente agressivos e letais, representando uma ameaça significativa para os guerreiros Z durante o torneio de Cell.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const caos = await prisma.personagem.create({
       data: {
         name: "Caos",
         imageUrl:
           "https://i.pinimg.com/1200x/30/26/ba/3026ba746785490d319d6aabbc56d61f.jpg",
         ki: "Desconhecido",
-        planetaId: 1,
-        racaId: 2,
+        planetaId: terra.id,
+        racaId: terraqueos.id,
         tecnicasEspeciais: "Auto-destruição, manipulação de energia",
         transformacoes: "Não",
         sagas: "Saga Sayajins",
         biografia:
           "Chaos é um terráqueo pequeno, de pele branca e bochechas vermelhas, que aparece na Saga Sayajins em Dragon Ball Z. Ele é um personagem cômico e um tanto inútil, conhecido por sua habilidade de auto-destruição, que ele usa como uma técnica de combate desesperada. Apesar de sua aparência frágil, Chaos é um aliado leal dos guerreiros Z.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const chiChi = await prisma.personagem.create({
       data: {
         name: "Chi-Chi",
         imageUrl:
           "https://i.pinimg.com/1200x/ba/bf/ca/babfcafa54cdd1c3d2b8db42a379eb7f.jpg",
         ki: "Desconhecido",
-        planetaId: 1,
-        racaId: 2,
+        planetaId: terra.id,
+        racaId: terraqueos.id,
         tecnicasEspeciais: "Habilidades de Combate Básicas",
         transformacoes: "Não",
         sagas: "Todas as sagas",
         biografia:
           "Chichi é a esposa de Goku e mãe de Gohan e Goten na série Dragon Ball. Ela é conhecida por sua personalidade forte e protetora, muitas vezes preocupada com a segurança e o bem-estar de sua família. Apesar de não ser uma lutadora poderosa como os guerreiros Z, Chichi é uma personagem importante na série, desempenhando um papel crucial na vida de Goku e seus filhos.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const coola = await prisma.personagem.create({
       data: {
         name: "Coola",
         imageUrl:
           "https://i.pinimg.com/736x/73/28/7e/73287e9143f3ccf70736971740cf4510.jpg",
         ki: "1.1 milhão",
-        planetaId: 5,
-        racaId: 6,
+        planetaId: freeza79.id,
+        racaId: racaFreeza.id,
         tecnicasEspeciais: "Transformações, Força Sobre-humana",
         transformacoes: "Sim (Várias formas)",
         sagas: "Dragon Ball Z: O Retorno de Cooler",
         biografia:
           "Coola é o irmão mais novo de Freeza e um dos antagonistas do filme Dragon Ball Z: O Retorno de Cooler. Ele é um guerreiro poderoso que busca vingança contra os guerreiros Z por causa da derrota de seu irmão. Coola possui várias formas de transformação, cada uma aumentando significativamente seu poder de luta.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const freeza = await prisma.personagem.create({
       data: {
         name: "Freeza",
         imageUrl:
           "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/63c96660-93f3-5314-99aa-f2d599f894ba/eddacbbf-030d-5f73-809b-72846a8be24f.jpg",
         ki: "1 milhão",
-        planetaId: 5,
-        racaId: 6,
+        planetaId: freeza79.id,
+        racaId: racaFreeza.id,
         tecnicasEspeciais: "Transformações, Death Beam, Supernova",
         transformacoes: "Sim (Várias formas)",
         sagas: "Saga Freeza, Saga Trunks do Futuro, Saga do Torneio do Poder",
         biografia:
           "Freeza é um dos principais antagonistas da série Dragon Ball Z. Ele é o imperador do universo e é conhecido por sua crueldade e poder imenso. Freeza possui várias formas de transformação, cada uma aumentando significativamente seu poder de luta. Ele é responsável pela destruição do Planeta Vegeta e pela quase extinção da raça Saiyajin. Freeza é um inimigo formidável para os guerreiros Z, especialmente durante a Saga de Freeza em Namekusei.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const gine = await prisma.personagem.create({
       data: {
         name: "Gine",
         imageUrl:
           "https://i.pinimg.com/1200x/22/66/14/2266140c73939458f482a63dbd2abe80.jpg",
         ki: "Desconhecido",
-        planetaId: 3,
-        racaId: 7,
+        planetaId: planetaVegeta.id,
+        racaId: saiyajin.id,
         tecnicasEspeciais: "Habilidades de Combate Básicas",
         transformacoes: "Não",
         sagas: "Dragon Ball Z bardock - O Pai de Goku",
         biografia:
           "Gine é a mãe de Goku e esposa de Bardock na série Dragon Ball. Ela é uma Saiyajin gentil e amorosa, diferente da maioria dos Saiyajins que são conhecidos por sua natureza guerreira. Gine desempenha um papel importante na história de Goku, especialmente em relação à sua origem e à destruição do Planeta Vegeta.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const gogeta = await prisma.personagem.create({
       data: {
         name: "Gogeta",
         imageUrl:
           "https://i.pinimg.com/1200x/91/0c/05/910c058921563c531655c74f45403634.jpg",
         ki: "10 milhões",
-        planetaId: 3,
-        racaId: 7,
+        planetaId: planetaVegeta.id,
+        racaId: saiyajin.id,
         tecnicasEspeciais: "Fusão, Kamehameha, Big Bang Kamehameha",
         transformacoes: "Sim (Super Saiyajin, Super Saiyajin Blue)",
         sagas: "Dragon Ball Z: O Retorno de Broly, Dragon Ball Super: Broly",
         biografia:
           "Gogeta é a fusão de Goku e Vegeta, dois dos guerreiros mais poderosos da série Dragon Ball. A fusão é realizada através da dança da fusão, resultando em um guerreiro incrivelmente poderoso que combina as habilidades e poderes de ambos os personagens. Gogeta é conhecido por sua força imensa, habilidades de combate avançadas e várias técnicas poderosas, incluindo o Kamehameha e o Big Bang Kamehameha.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const gohan = await prisma.personagem.create({
       data: {
         name: "Gohan",
         imageUrl:
           "https://static0.srcdn.com/wordpress/wp-content/uploads/Ultimate-Gohan-Dragon-Ball-Z.jpg",
         ki: "1 Bilhão",
-        planetaId: 1,
-        racaId: 7,
+        planetaId: terra.id,
+        racaId: saiyajin.id,
         tecnicasEspeciais: "Masenko, Kamehameha,",
         transformacoes: "Sim (Super Saiyajin, Potencial Liberado)",
         sagas: "Todas as sagas",
         biografia:
           "Gohan é o filho mais velho de Goku e Chi-Chi na série Dragon Ball. Ele é um guerreiro poderoso que possui um potencial imenso, muitas vezes superando até mesmo seu pai.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const gotenks = await prisma.personagem.create({
       data: {
         name: "Gotenks",
         imageUrl:
           "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/03c0cd2c-f688-52fa-b895-955faceefea3/37c62ba0-801e-5cbb-9817-26e7c0828519.jpg",
         ki: "3 milhões",
-        planetaId: 1,
-        racaId: 7,
+        planetaId: terra.id,
+        racaId: saiyajin.id,
         tecnicasEspeciais: "Fusão, Super Ghost Kamikaze Attack",
         transformacoes: "Sim (Super Saiyajin, Super Saiyajin 3)",
         sagas: "Saga Majin Boo",
         biografia:
           "Gotenks é a fusão de Goten e Trunks, dois jovens guerreiros Saiyajins na série Dragon Ball Z. A fusão é realizada através da dança da fusão, resultando em um guerreiro incrivelmente poderoso que combina as habilidades e poderes de ambos os personagens. Gotenks é conhecido por sua personalidade brincalhona e confiante, bem como por suas técnicas únicas, como o Super Ghost Kamikaze Attack",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const goku = await prisma.personagem.create({
       data: {
         name: "Goku",
         imageUrl:
           "https://i.pinimg.com/736x/5a/96/70/5a9670429d9a765d69bd00fd94ce69f2.jpg",
         ki: "50 Bilhões",
-        planetaId: 3,
-        racaId: 7,
+        planetaId: terra.id,
+        racaId: saiyajin.id,
         tecnicasEspeciais: "Kamehameha, Genki Dama, Teletransporte",
         transformacoes:
           "Sim (Ozaru, Super Saiyajin, Super Saiyajin Red, Super Saiyajin Blue, Ultra Instinto)",
@@ -774,165 +797,176 @@ prisma.raca.create({
         biografia:
           "Goku é o protagonista principal da série Dragon Ball. Ele é um Saiyajin que foi enviado à Terra quando era bebê e cresceu para se tornar um dos guerreiros mais poderosos do universo. Goku é conhecido por sua personalidade alegre e determinada, bem como por sua paixão por lutar e proteger seus amigos e entes queridos.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const goten = await prisma.personagem.create({
       data: {
         name: "Goten",
         imageUrl:
           "https://i.pinimg.com/1200x/e6/19/99/e619997aaac3fdd37429d88d39ad6c84.jpg",
         ki: "1 milhão",
-        planetaId: 1,
-        racaId: 7,
+        planetaId: terra.id,
+        racaId: saiyajin.id,
         tecnicasEspeciais: "Kamehameha, Super Saiyajin",
         transformacoes: "Sim (Super Saiyajin, Fusão com Trunks)",
         sagas: "Saga Majin Boo",
         biografia:
           "Goten é o filho mais novo de Goku e Chi-Chi na série Dragon Ball Z. Ele é um jovem guerreiro Saiyajin que possui habilidades de combate impressionantes, muitas vezes comparáveis às de seu irmão mais velho, Gohan. Goten é conhecido por sua personalidade alegre e brincalhona, bem como por sua capacidade de se transformar em Super Saiyajin desde muito jovem.",
       },
-    }),
-    prisma.personagem.create({
+    });
+    
+    const gurdo = await prisma.personagem.create({
       data: {
         name: "Gurdo",
         imageUrl:
           "https://i.pinimg.com/736x/08/7a/9f/087a9f6f9b7df2f8bc45966c076b1086.jpg",
         ki: "80 mil",
-        planetaId: 16,
-        racaId: 13,
+        planetaId: planetaDesconhecido.id,
+        racaId: racaDesconhecida.id,
         tecnicasEspeciais: "Manipulação do Tempo, Força Sobre-humana",
         transformacoes: "Não",
         sagas: "Saga Freeza",
         biografia:
           "Guldo é um membro do Esquadrão Ginyu, uma equipe de elite que serve sob o comando de Freeza. Ele é conhecido por sua habilidade única de manipular o tempo, permitindo-lhe parar o tempo por curtos períodos. Guldo é um lutador astuto e estratégico, mas acaba sendo derrotado pelos guerreiros Z durante a batalha em Namekusei.",
       },
-    }),
-    prisma.personagem.create({
+    });
+    
+    const kaiohDoNorte = await prisma.personagem.create({
       data: {
         name: "Kaioh do Norte",
         imageUrl:
           "https://i.pinimg.com/736x/40/c4/8b/40c48bcd436c76e7ce256e7d19849612.jpg",
         ki: "Desconhecido",
-        planetaId: 4,
-        racaId: 3,
+        planetaId: planetaKaioshin.id,
+        racaId: glinds.id,
         tecnicasEspeciais: "Teletransporte, Treinamento de Artes Marciais",
         transformacoes: "Não",
         sagas: "Saga Sayajins, Saga Freeza, Saga de Cell, Saga Majin Boo",
         biografia:
           "Kaioh do Norte, também conhecido como Rei Kai, é um dos quatro Kaioshins do universo em Dragon Ball. Ele é responsável por treinar Goku e outros guerreiros Z, ajudando-os a melhorar suas habilidades de combate. Kaioh do Norte é conhecido por seu senso de humor peculiar e por sua habilidade de ensinar técnicas poderosas, como o Kaio-ken e a Genki Dama.",
       },
-    }),
-    prisma.personagem.create({
+    });
+    
+    const dende = await prisma.personagem.create({
       data: {
         name: "Dende",
         imageUrl:
           "https://i.pinimg.com/736x/a7/61/e7/a761e7df336e8376585d99f3ed0fdf68.jpg",
         ki: "Desconhecido",
-        planetaId: 2,
-        racaId: 5,
+        planetaId: namekusei.id,
+        racaId: namekuseijins.id,
         tecnicasEspeciais: "Regeneração, Criação de Esferas do Dragão",
         transformacoes: "Não",
         sagas: "Saga Freeza, Saga de Cell, Saga Majin Boo, Dragon Ball Super",
         biografia:
           "Dende é um Namekuseijin que desempenha um papel crucial na série Dragon Ball. Ele é responsável por criar as Esferas do Dragão de Namekusei, que são usadas para invocar o dragão Shenlong e conceder desejos. Dende também possui habilidades de cura e regeneração, ajudando os guerreiros Z em várias ocasiões. Ele eventualmente se torna o novo Deus da Terra, substituindo Kami.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const kuririn = await prisma.personagem.create({
       data: {
         name: "Kuririn",
         imageUrl:
           "https://i.pinimg.com/1200x/be/75/3d/be753ddf480aad170096d3aaaebe91ed.jpg",
         ki: "200 mil",
-        planetaId: 1,
-        racaId: 2,
+        planetaId: terra.id,
+        racaId: terraqueos.id,
         tecnicasEspeciais: "Kamehameha, Kienzan",
         transformacoes: "Não",
         sagas: "Todas as sagas",
         biografia:
           "Kuririn é um dos melhores amigos de Goku e um dos guerreiros Z na série Dragon Ball. Ele é conhecido por sua coragem, lealdade e habilidades de combate impressionantes, apesar de não ser tão poderoso quanto alguns dos outros guerreiros Z. Kuririn é um personagem cômico e muitas vezes serve como alívio cômico na série, mas também demonstra grande determinação e bravura em batalha.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const majinBoo = await prisma.personagem.create({
       data: {
         name: "Majin Boo",
         imageUrl:
           "https://i.pinimg.com/736x/2a/eb/17/2aeb17816e82e172d2ad2816a89da3ec.jpg",
         ki: "3 bilhões",
-        planetaId: 1,
-        racaId: 4,
+        planetaId: planetaKaishin.id,
+        racaId: majin.id,
         tecnicasEspeciais: "Regeneração, Transformações, Kamehameha",
         transformacoes: "Sim (Várias formas)",
         sagas: "Saga Majin Boo",
         biografia:
           "Majin Boo é um dos principais antagonistas da série Dragon Ball Z. Ele é uma criatura mágica criada pelo mago Bibidi, conhecida por sua capacidade de regeneração e transformação. Majin Boo passa por várias formas ao longo da saga, cada uma com diferentes níveis de poder e personalidade. Apesar de sua natureza destrutiva, Majin Boo eventualmente se torna um aliado dos guerreiros Z após ser purificado por Goku e seus amigos.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const superBoo = await prisma.personagem.create({
       data: {
         name: "Super Boo",
         imageUrl:
           "https://i.pinimg.com/736x/03/2d/e7/032de72d2a69b0c82e01fa6848bfbbd5.jpg",
         ki: "3 bilhões",
-        planetaId: 1,
-        racaId: 4,
+        planetaId: planetaKaishin.id,
+        racaId: majin.id,
         tecnicasEspeciais: "Regeneração, Transformações, Kamehameha", 
         transformacoes: "Sim (Várias formas)",
         sagas: "Saga Majin Boo",
         biografia:
           "Super Boo é uma das formas de Majin Boo na série Dragon Ball Z. Ele é a forma resultante da fusão de Majin Boo com o Sr. Satan, o que o torna mais inteligente e menos destrutivo. Super Boo mantém a capacidade de regeneração e transformação de Majin Boo, mas também demonstra um senso de humor e personalidade mais desenvolvidos. Apesar de sua natureza caótica, Super Boo eventualmente se torna um aliado dos guerreiros Z após ser purificado por Goku e seus amigos.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const kidBoo = await prisma.personagem.create({
       data: {
         name: "Kid Boo",
         imageUrl:
           "https://i.pinimg.com/1200x/5b/84/97/5b84970834caad99ae98d911a3bbb332.jpg",
         ki: "4 bilhões",
-        planetaId: 1,
-        racaId: 4,
+        planetaId: planetaKaishin.id,
+        racaId: majin.id,
         tecnicasEspeciais: "Regeneração, Transformações, Kamehameha",
         transformacoes: "Não",
         sagas: "Saga Majin Boo",
         biografia:
           "Kid Boo é a forma original e mais pura de Majin Boo na série Dragon Ball Z. Ele é uma criatura malévola e caótica, conhecida por sua natureza destrutiva e imprevisível. Kid Boo possui habilidades de regeneração e transformação, tornando-o um adversário formidável para os guerreiros Z. Ele é o antagonista final da Saga Majin Boo, representando uma ameaça significativa que Goku e seus amigos devem enfrentar para salvar o universo.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const mestreKame = await prisma.personagem.create({
       data: {
         name: "Mestre Kame",
         imageUrl:
           "https://i.pinimg.com/736x/f8/fb/28/f8fb28df7e44060eb2d1cf798f38796f.jpg",
         ki: "Desconhecido",
-        planetaId: 1,
-        racaId: 2,
+        planetaId: terra.id,
+        racaId: terraqueos.id,
         tecnicasEspeciais: "Kamehameha, Mafuba",
         transformacoes: "Não",
         sagas: "Todas as sagas",
         biografia:
           "Mestre Kame, também conhecido como Mestre Roshi, é um dos personagens mais icônicos da série Dragon Ball. Ele é um mestre de artes marciais e o criador da técnica Kamehameha. Mestre Kame é conhecido por sua personalidade excêntrica e senso de humor, muitas vezes agindo de maneira pervertida. Apesar de sua aparência idosa e comportamento cômico, ele é um lutador habilidoso e sábio, desempenhando um papel crucial no treinamento de Goku e outros guerreiros Z.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const metalCooler = await prisma.personagem.create({
       data: {
         name: "Metal Cooler",
         imageUrl:
           "https://i.pinimg.com/1200x/21/4a/d1/214ad178541c4a8b9e951713c34a7b1c.jpg",
         ki: "2 milhões",
-        planetaId: 5,
-        racaId: 8,
+        planetaId: freeza79.id,
+        racaId: racaFreeza.id,
         tecnicasEspeciais: "Transformações, Força Sobre-humana",
         transformacoes: "Sim (Forma Metálica)",
         sagas: "Dragon Ball Z: O Retorno de Cooler",
         biografia:
           "Metal Cooler é uma versão aprimorada de Cooler, o irmão mais novo de Freeza, na série Dragon Ball Z. Ele é um guerreiro ciborgue criado a partir do corpo de Cooler após sua derrota pelos guerreiros Z. Metal Cooler possui força e resistência aumentadas, bem como a capacidade de se regenerar rapidamente. Ele busca vingança contra os guerreiros Z por causa da derrota de seu irmão e representa uma ameaça significativa durante o filme Dragon Ball Z: O Retorno de Cooler.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const nappa = await prisma.personagem.create({
       data: {
         name: "Nappa",
         imageUrl:
           "https://i.pinimg.com/736x/4a/50/af/4a50aff61f0705ad7c72e4063fe95c8c.jpg",
         ki: "10 mil",
-        planetaId: 3,
-        racaId: 7,
+        planetaId: planetaVegeta.id,
+        racaId: saiyajin.id,
         tecnicasEspeciais:
           "Força Sobre-humana, Habilidades de Combate Avançadas",
         transformacoes: "Não",
@@ -940,30 +974,32 @@ prisma.raca.create({
         biografia:
           "Nappa é um guerreiro Saiyajin que aparece como antagonista na Saga dos Sayajins em Dragon Ball Z. Ele é um aliado de Vegeta e chega à Terra com o objetivo de conquistar o planeta e eliminar os guerreiros Z. Nappa é conhecido por sua força bruta e habilidades de combate, mas acaba sendo derrotado pelos guerreiros Z durante a batalha.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const piccolo = await prisma.personagem.create({
       data: {
         name: "Piccolo",
         imageUrl:
           "https://i.pinimg.com/1200x/18/aa/e1/18aae14aa27cc39bc60856fbff0ca6c3.jpg",
         ki: "800 milhões",
-        planetaId: 2,
-        racaId: 5,
+        planetaId: namekusei.id,
+        racaId: namekuseijins.id,
         tecnicasEspeciais: "Makankosappo, Regeneração, Fusão",
         transformacoes: "Sim (Fusão com Kami e Nail)",
         sagas: "Todas as sagas",
         biografia:
           "Piccolo é um dos personagens principais da série Dragon Ball. Ele é um Namekuseijin que inicialmente aparece como um antagonista, mas eventualmente se torna um aliado dos guerreiros Z. Piccolo é conhecido por sua inteligência, habilidades de combate avançadas e técnicas poderosas, como o Makankosappo. Ele também possui a capacidade de regeneração e já se fundiu com outros Namekuseijins, como Kami e Nail, para aumentar seu poder.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const raditz = await prisma.personagem.create({
       data: {
         name: "Raditz",
         imageUrl:
           "https://i.pinimg.com/736x/71/8d/51/718d5139ed98c01f9877a2d6d938cbd1.jpg",
         ki: "1 mil",
-        planetaId: 3,
-        racaId: 7,
+        planetaId: planetaVegeta.id,
+        racaId: saiyajin.id,
         tecnicasEspeciais:
           "Força Sobre-humana, Habilidades de Combate Avançadas",
         transformacoes: "Não",
@@ -971,30 +1007,32 @@ prisma.raca.create({
         biografia:
           "Raditz é um guerreiro Saiyajin que aparece como o primeiro antagonista na série Dragon Ball Z. Ele é o irmão mais velho de Goku e chega à Terra para recrutar Goku para ajudar na conquista do planeta. Raditz é conhecido por sua força bruta e habilidades de combate, mas acaba sendo derrotado por Goku e Piccolo durante a batalha.",
       },
-    }),
-    prisma.personagem.create({
+    });
+    
+    const reiVegeta = await prisma.personagem.create({
       data: {
         name: "Rei Vegeta",
         imageUrl:
           "https://i.pinimg.com/736x/4f/09/ea/4f09ea5276bc5845f45a0c327610bfd1.jpg",
         ki: "Desconhecido",
-        planetaId: 3,
-        racaId: 7,
+        planetaId: planetaVegeta.id,
+        racaId: saiyajin.id,
         tecnicasEspeciais: "Habilidades de Combate Avançadas",
         transformacoes: "Não",
         sagas: "Saga Freeza",
         biografia:
           "Rei Vegeta é o pai de Vegeta e o antigo rei dos Saiyajins na série Dragon Ball Z. Ele é conhecido por sua personalidade orgulhosa e ambiciosa, buscando constantemente aumentar o poder e a influência dos Saiyajins. Rei Vegeta desempenha um papel crucial na história dos Saiyajins, especialmente em relação à destruição do Planeta Vegeta por Freeza.",
       },
-    }),
-    prisma.personagem.create({
+    });
+    
+    const rikum = await prisma.personagem.create({
       data: {
         name: "Rikum",
         imageUrl:
           "https://i.pinimg.com/736x/d1/ab/ef/d1abef8146641891a40351414f27aff7.jpg",
         ki: "300 mil",
-        planetaId: 16,
-        racaId: 13,
+        planetaId: planetaDesconhecido.id,
+        racaId: racaDesconhecida.id,
         tecnicasEspeciais:
           "Força Sobre-humana, Habilidades de Combate Avançadas",
         transformacoes: "Não",
@@ -1002,15 +1040,16 @@ prisma.raca.create({
         biografia:
           "Recoome é um membro do Esquadrão Ginyu, uma equipe de elite que serve sob o comando de Freeza. Ele é conhecido por sua força bruta e habilidades de combate impressionantes, bem como por sua personalidade excêntrica e teatral. Recoome é um lutador poderoso, mas acaba sendo derrotado pelos guerreiros Z durante a batalha em Namekusei.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const srPopo = await prisma.personagem.create({
       data: {
         name: "Sr. Popo",
         imageUrl:
           "https://i.pinimg.com/736x/f7/c1/56/f7c15630ea8dafb033331627b44fa7c8.jpg",
         ki: "Desconhecido",
-        planetaId: 1,
-        racaId: 2,
+        planetaId: terra.id,
+        racaId: terraqueos.id,
         tecnicasEspeciais:
           "Habilidades de Combate Básicas, Assistência ao Kami",
         transformacoes: "Não",
@@ -1019,15 +1058,16 @@ prisma.raca.create({
         biografia:
           "Sr. Popo é o assistente leal do Kami, o guardião da Terra, na série Dragon Ball. Ele é responsável por cuidar do Templo Sagrado e ajudar os guerreiros Z em várias ocasiões. Sr. Popo é conhecido por sua sabedoria, habilidades de combate básicas e devoção ao Kami. Apesar de sua aparência incomum, ele é um personagem importante na série, desempenhando um papel crucial na proteção da Terra.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const tapion = await prisma.personagem.create({
       data: {
         name: "Tapion",
         imageUrl:
           "https://i.pinimg.com/736x/4f/13/de/4f13de7fe6ac3ed1ea1e7dac392fdd02.jpg",
         ki: "3.5 milhões",
-        planetaId: 9,
-        racaId: 9,
+        planetaId: planetaKonatsu.id,
+        racaId: konatsuSeijins.id,
         tecnicasEspeciais:
           "Força Sobre-humana, Habilidades de Combate Avançadas, Uso de Espada",
         transformacoes: "Não",
@@ -1035,45 +1075,48 @@ prisma.raca.create({
         biografia:
           "Tapion é um personagem que aparece no filme Dragon Ball Z: O Domínio dos Deuses. Ele é um guerreiro de um planeta distante que possui habilidades de combate impressionantes e é conhecido por sua força sobre-humana. Tapion é um personagem nobre e corajoso, disposto a sacrificar-se para proteger os outros. Ele desempenha um papel crucial na história do filme, ajudando Goku e seus amigos a enfrentar uma ameaça poderosa.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const tenshinhan = await prisma.personagem.create({
       data: {
         name: "Tenshinhan",
         imageUrl:
           "https://i.pinimg.com/1200x/8b/bc/93/8bbc93e25e75d9514d31381552d7482b.jpg",
         ki: "180 mil",
-        planetaId: 1,
-        racaId: 2,
+        planetaId: terra.id,
+        racaId: terraqueos.id,
         tecnicasEspeciais: "Kikoho, Dodonpa, Shiyoken",
         transformacoes: "Não",
         sagas: "Todas as sagas",
         biografia:
           "Tenshinhan é um dos guerreiros Z na série Dragon Ball. Ele é conhecido por sua habilidade de combate avançada e técnicas poderosas, como o Kikoho e o Dodonpa. Tenshinhan é um personagem sério e dedicado, muitas vezes servindo como um rival para Goku. Apesar de não ser tão poderoso quanto alguns dos outros guerreiros Z, ele demonstra grande determinação e bravura em batalha.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+  const trunksCrianca = await prisma.personagem.create({
       data: {
         name: "Trunks (criança)",
         imageUrl:
           "https://i.pinimg.com/1200x/82/94/17/829417b1bc2eda64e57d69c16197977b.jpg",
         ki: "1 milhão",
-        planetaId: 1,
-        racaId: 7,
+        planetaId: terra.id,
+        racaId: saiyajin.id,
         tecnicasEspeciais: "Fusão",
         transformacoes: "Sim (Super Saiyajin, Fusão com Goten)",
         sagas: "Saga Majin Boo",
         biografia:
           "Trunks é o filho de Vegeta e Bulma na série Dragon Ball Z. Ele é um jovem guerreiro Saiyajin que possui habilidades de combate impressionantes, muitas vezes comparáveis às de seu pai. Trunks é conhecido por sua personalidade confiante e determinada, bem como por sua capacidade de se transformar em Super Saiyajin desde muito jovem. Ele também é capaz de se fundir com Goten para formar Gotenks, um guerreiro incrivelmente poderoso.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const trunksFuturo = await prisma.personagem.create({
       data: {
         name: "Trunks (futuro)",
         imageUrl:
           "https://i.pinimg.com/1200x/80/d3/43/80d34388660617f6d41871bce521103e.jpg",
         ki: "2 milhões",
-        planetaId: 1,
-        racaId: 7,
+        planetaId: terra.id,
+        racaId: saiyajin.id,
         tecnicasEspeciais:
           "Galick-ho, Habilidades de Combate Avançadas, Uso de Espada",
         transformacoes: "Sim (Super Saiyajin)",
@@ -1081,15 +1124,16 @@ prisma.raca.create({
         biografia:
           "Trunks do Futuro é uma versão alternativa de Trunks que vem de um futuro distópico na série Dragon Ball Z. Ele é o filho de Vegeta e Bulma, e viaja no tempo para avisar os guerreiros Z sobre a ameaça dos Andróides e Cell. Trunks do Futuro é um guerreiro habilidoso, conhecido por sua força, habilidades de combate avançadas e uso de uma espada. Ele é um personagem sério e determinado, disposto a fazer o que for necessário para proteger seu futuro.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const vegeta = await prisma.personagem.create({
       data: {
         name: "Vegeta",
         imageUrl:
           "https://i.pinimg.com/736x/30/09/89/3009894ff61c6b691fb4ec13c2eb2093.jpg",
         ki: "49 bilhões",
-        planetaId: 3,
-        racaId: 7,
+        planetaId: planetaVegeta.id,
+        racaId: saiyajin.id,
         tecnicasEspeciais: "Galick-ho, Final Flash, Big Bang Attack",
         transformacoes:
           "Sim (Ozaru, Super Saiyajin, Super Saiyajin Red, Super Saiyajin Blue)",
@@ -1097,60 +1141,64 @@ prisma.raca.create({
         biografia:
           "Vegeta é o príncipe dos Saiyajins e um dos personagens principais da série Dragon Ball. Inicialmente introduzido como um antagonista, Vegeta eventualmente se torna um aliado dos guerreiros Z. Ele é conhecido por sua personalidade orgulhosa e competitiva, bem como por sua determinação em se tornar o guerreiro mais poderoso do universo. Vegeta possui várias transformações poderosas, incluindo Super Saiyajin e Super Saiyajin Blue, e é um lutador habilidoso com técnicas devastadoras como o Galick-ho e o Final Flash.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const velhoKaioshin = await prisma.personagem.create({
       data: {
         name: "Velho Kaioshin",
         imageUrl:
           "https://i.pinimg.com/1200x/af/13/41/af134185b1c39ad249645c0e46a5f817.jpg",
         ki: "Desconhecido",
-        planetaId: 15,
-        racaId: 3,
+        planetaId: planetaKaishin.id,
+        racaId: glinds.id,
         tecnicasEspeciais: "Teletransporte, Treinamento de Artes Marciais",
         transformacoes: "Não",
         sagas: "Saga Majin Boo, Dragon Ball Super",
         biografia:
           "Velho Kaioshin, também conhecido como Old Kai, é um dos quatro Kaioshins do universo em Dragon Ball. Ele é um personagem sábio e excêntrico que desempenha um papel crucial na série, especialmente durante a Saga Majin Boo. Velho Kaioshin é conhecido por sua habilidade de desbloquear o potencial oculto dos guerreiros, ajudando Gohan a alcançar seu estado de Potencial Liberado. Apesar de sua aparência idosa e comportamento peculiar, ele é um personagem importante na série, oferecendo orientação e apoio aos guerreiros Z.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+   const videl = await prisma.personagem.create({
       data: {
         name: "Videl",
         imageUrl:
           "https://i.pinimg.com/1200x/93/d7/b2/93d7b20c50fc6df4699a186d0105e6fd.jpg",
         ki: "Desconhecido",
-        planetaId: 1,
-        racaId: 2,
+        planetaId: terra.id,
+        racaId: terraqueos.id,
         tecnicasEspeciais: "Habilidades de Combate Básicas, Voo",
         transformacoes: "Não",
         sagas: "Saga Majin Boo, Dragon Ball Super",
         biografia:
           "Videl é a filha de Mr. Satan e uma personagem importante na série Dragon Ball Z. Ela é uma lutadora habilidosa que aprende a voar e usar ki com a ajuda de Gohan. Videl eventualmente se torna a esposa de Gohan e mãe de Pan. Ela é conhecida por sua personalidade forte e determinada, bem como por seu desejo de proteger aqueles que ama.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const mrSatan = await prisma.personagem.create({
       data: {
         name: "Mr. Satan",
         imageUrl:
           "https://i.pinimg.com/736x/a6/98/52/a6985292c3c76afeff03d624e56e4dc3.jpg",
         ki: "Desconhecido",
-        planetaId: 1,
-        racaId: 2,
+        planetaId: terra.id,
+        racaId: terraqueos.id,
         tecnicasEspeciais: "Habilidades de Combate Básicas",
         transformacoes: "Não",
         sagas: "Saga Majin Boo, Dragon Ball Super",
         biografia:
           "Mr. Satan, também conhecido como Hercule na versão em inglês, é um personagem cômico na série Dragon Ball Z. Ele é um lutador de artes marciais que se torna famoso por derrotar Cell, embora na verdade tenha sido Gohan quem o derrotou. Mr. Satan é conhecido por sua personalidade exagerada e senso de humor, muitas vezes servindo como alívio cômico na série. Apesar de não ser tão poderoso quanto os guerreiros Z, ele desempenha um papel importante na história, especialmente durante a Saga Majin Boo.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+   const whis = await prisma.personagem.create({
       data: {
         name: "Whis",
         imageUrl:
           "https://i.pinimg.com/1200x/2d/2c/b1/2d2cb1a309473ae7bf3ab398080691e8.jpg",
         ki: "Desconhecido",
-        planetaId: 11,
-        racaId: 13,
+        planetaId: planetaBeerus.id,
+        racaId: racaDesconhecida.id,
         tecnicasEspeciais:
           "Manipulação do Tempo, Habilidades de Combate Avançadas",
         transformacoes: "Não",
@@ -1158,40 +1206,40 @@ prisma.raca.create({
         biografia:
           "Whis é um personagem poderoso na série Dragon Ball Super. Ele é o anjo assistente do Deus da Destruição, Beerus, e serve como seu mestre e guia. Whis é conhecido por sua habilidade de manipular o tempo, permitindo-lhe reverter eventos recentes. Ele também é um lutador habilidoso, capaz de derrotar facilmente guerreiros poderosos. Apesar de sua natureza calma e serena, Whis desempenha um papel crucial na série, ajudando Goku e Vegeta a alcançar novos níveis de poder.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const yamcha = await prisma.personagem.create({
       data: {
         name: "Yamcha",
         imageUrl:
           "https://i.pinimg.com/1200x/78/43/5c/78435c0690153247753a347e154970df.jpg",
         ki: "80 mil",
-        planetaId: 1,
-        racaId: 2,
+        planetaId: terra.id,
+        racaId: terraqueos.id,
         tecnicasEspeciais: "Kamehameha, Roubo de Energia",
         transformacoes: "Não",
         sagas: "Todas as sagas",
         biografia:
           "Yamcha é um dos primeiros personagens introduzidos na série Dragon Ball. Ele é um lutador habilidoso e ex-ladrão que se torna um aliado dos guerreiros Z. Yamcha é conhecido por suas habilidades de combate, incluindo o Kamehameha e a técnica de Roubo de Energia. Apesar de não ser tão poderoso quanto alguns dos outros guerreiros Z, Yamcha demonstra grande coragem e determinação em batalha. Ele também é conhecido por sua personalidade descontraída e senso de humor.",
       },
-    }),
-    prisma.personagem.create({
+    });
+
+    const zarbon = await prisma.personagem.create({
       data: {
         name: "Zarbon",
         imageUrl:
           "https://i.pinimg.com/1200x/84/f8/df/84f8df2bc5d11d7aa799f7084f30fc25.jpg",
         ki: "100 mil",
-        planetaId: 16,
-        racaId: 13,
+        planetaId: planetaDesconhecido.id,
+        racaId: racaDesconhecida.id,
         tecnicasEspeciais: "Transformações, Força Sobre-humana",
         transformacoes: "Sim (Forma Monstruosa)",
         sagas: "Saga Freeza",
         biografia:
           "Zarbon é um dos principais tenentes de Freeza na série Dragon Ball Z. Ele é conhecido por sua aparência elegante e habilidades de combate impressionantes. Zarbon possui a capacidade de se transformar em uma forma monstruosa, aumentando significativamente seu poder e força. Ele é um lutador astuto e estratégico, mas acaba sendo derrotado pelos guerreiros Z durante a batalha em Namekusei.",
       },
-    }),
-
-
-  ])}
+    });
+}
 
 main()
   .catch((e) => {
